@@ -1,0 +1,154 @@
+/*********************************************************
+  Header & Navs
+*********************************************************/
+
+/**
+  * Header
+  */
+.header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: rem(30);
+  background-color: $color__primary;
+  color: $color__white;
+  z-index: 30;
+}
+
+.header__row {
+  justify-content: space-between;
+}
+
+.header__logo {}
+
+.header__logo a {
+  color: $color__white;
+}
+
+.header__logo-wrapper {}
+
+
+
+
+
+/**
+  * Nav
+  */
+.nav__inner {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__inner li {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+.nav__inner li a {
+  color: $color__white;
+}
+
+
+/**
+  * Nav-Toggle 
+  */
+$bar-width: 40px;
+$bar-height: 5px;
+$bar-spacing: 10px;
+$height-icon: 20px;
+$width-line: 35px;
+$height-line: 2px;
+$transition-time: 0.25s;
+$rotation: 45deg;
+$translateY: ($height-icon / 2);
+$translateX: 0;
+
+.nav-toggle {
+  width: $width-line;
+  height: $height-icon;
+  position: relative;
+  margin: 0;
+  &:hover, &:focus {
+    .nav-toggle__line--1 {
+      transform: translateY($height-line / 2 * -1);
+     }
+    .nav-toggle__line--3 {
+      transform: translateY($height-line / 2);
+    }
+  }
+  &.active {
+    .nav-toggle__line--1 {
+      transform: translateY($translateY) translateX($translateX) rotate($rotation);
+    }
+    .nav-toggle__line--2 {
+      opacity:0;
+    }
+    .nav-toggle__line--3 {
+      transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
+    }
+  }
+}
+
+.nav-toggle__line {
+  display: block;
+  position: absolute;
+  right: 0;
+  background: $color__white;
+  width: $width-line;
+  height: $height-line;
+  transition: all $transition-time;
+  &--1 {
+    top: 0;
+  }
+  &--2 {
+    top: 50%;
+  }
+  &--3 {
+    top: 100%;
+  }
+}
+
+/**
+  * Nav-Mobile 
+  */
+.nav-mobile {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  background: $color__primary;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 60px;
+  padding-top: 100px;
+  overflow: hidden;
+  transform: translateX(100%);
+  transition: transform 0.3s, ease-out 0.3s;
+  will-change: transform;
+  z-index: 20;
+  &.nav-open {
+    opacity: 1;
+    overflow-y: scroll;
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+
+.nav-mobile__inner {
+  width: auto;
+  height: 100vh;
+}
+
+.nav-mobile li a {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  color: $color__white;
+}
+
+// Classes added on trigger, if needed
+body.nav-open {}

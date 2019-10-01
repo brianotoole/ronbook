@@ -1,0 +1,70 @@
+/*********************************************************
+  Button
+*********************************************************/
+
+.btn {
+  display: inline-block;
+  padding: rem(10) rem(15);
+  background: $color__primary; 
+  color: $color__white;
+  font-family: inherit;
+  font-size: $font-size;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  &:hover, &:focus {
+    color: white;
+    background: $color__primary--dark;
+  }
+}
+
+.btn--primary {
+  background: $color__primary;
+  color: $color__white;
+  &:hover, &:focus {
+    color: white;
+    background: $color__primary--dark;
+  }
+}
+
+.btn--secondary {
+  background: $color__secondary;
+  color: $color__white;
+  &:hover, &:focus {
+    color: white;
+    background: $color__secondary--dark;
+  }
+}
+
+.btn--clear {
+  background: transparent;
+  color: $color__primary;
+  &:hover, &:focus {
+    background: transparent;
+    color: $color__primary--dark;
+  }
+}
+
+.btn--small {
+  font-size: rem(14);
+  padding: rem(5) rem(10);
+}
+
+.btn--large {
+  font-size: rem(18);
+  padding: rem(15) rem(20);
+}
+
+.btn--disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.btn--block {
+  display: block;
+  max-width: 100%;
+}
+

@@ -1,0 +1,50 @@
+/*********************************************************
+    Hero
+*********************************************************/
+$header-height: 85px;
+.hero {
+  position: relative;
+  height: 500px;
+  background: $color__secondary;
+  color: $color__white;
+  //background: url('../img/bg-hero.png') 0 0 repeat;
+
+  &--full-height {
+    height: calc(100vh - #{$header-height});
+  }
+
+  &--has-overlay {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba($color__secondary, 0.8);
+      z-index: 1;
+    }
+  }
+
+}
+
+.hero__content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  text-align: center;
+  color: $color__white;
+  z-index: 10;
+  @media (min-width: $tablet) {
+    margin: 0 auto;
+    max-width: 65%;
+  }
+}
+
+.hero__title {
+  margin: 0;
+}
+
+.hero__subtitle {}
