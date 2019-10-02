@@ -28,26 +28,24 @@
                 </a>
                 <div class="navigation-additional-controls white"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7cb836b8ea_icon-search-white.svg" alt="" class="navigation-control search-toggle" /><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cd3f536b8e9_icon-menu-white.svg" alt="" class="navigation-control mobile-toggle" /></div>
                 <ul class="navigation-menu w-list-unstyled">
-                    <li class="navigation-menu-item">
-                        <div data-delay="0" class="w-dropdown">
-                            <div class="navigation-dropdown-item-toggle text-white w-dropdown-toggle">
-                                <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                                <div>Pages</div>
-                            </div>
-                            <nav class="dropdown-list w-dropdown-list"><a href="/about" class="dropdown-link w-dropdown-link">About Company</a><a href="/team" class="dropdown-link w-dropdown-link">Our Team</a><a href="/services" class="dropdown-link w-dropdown-link">Services</a><a href="/careers" class="dropdown-link w-dropdown-link">Careers</a><a href="/contact" class="dropdown-link w-dropdown-link">Get In Touch</a></nav>
-                        </div>
-                    </li>
                     <li class="navigation-menu-item"><a href="/case-studies" class="text-white nav-link">About</a></li>
-                    <li class="navigation-menu-item"><a href="/blog" class="text-white nav-link">Testimonials</a></li>
+                    <li class="navigation-menu-item"><a href="/case-studies" class="text-white nav-link">Team</a></li>
                     <li class="navigation-menu-item">
                         <div data-delay="0" class="w-dropdown">
                             <div class="navigation-dropdown-item-toggle text-white w-dropdown-toggle">
                                 <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                                <div>Template</div>
+                                <div>Practice Areas</div>
                             </div>
-                            <nav class="dropdown-list w-dropdown-list"><a href="/style-guide" class="dropdown-link w-dropdown-link">Style Guide</a><a href="#" class="dropdown-link w-dropdown-link">Image License</a></nav>
+                            <nav class="dropdown-list w-dropdown-list">
+                                <a href="/about" class="dropdown-link w-dropdown-link">Lobbying</a>
+                                <a href="/team" class="dropdown-link w-dropdown-link">Governmental Affairs</a>
+                                <a href="/services" class="dropdown-link w-dropdown-link">Procurement</a>
+                                <a href="/careers" class="dropdown-link w-dropdown-link">Business Services</a>
+                            </nav>
                         </div>
                     </li>
+                    <li class="navigation-menu-item"><a href="/case-studies" class="text-white nav-link">Testimonials</a></li>
+                    <li class="navigation-menu-item"><a href="#" class="text-white nav-link">News</a></li>
                 </ul>
             </div>
         </div>
