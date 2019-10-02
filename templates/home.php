@@ -81,30 +81,47 @@
         <div class="numbers__stat h2">$100M+</div>
         <div class="numbers__stat-text">Managed Campaigns</div>
       </div><!--/.container-->
-      </div>
-    </div>
+      </div><!--/.numbers__col-stats-->
+    </div><!--/.numbers__wrapper-->
 </div><!--/.section-->
 
 
 
-
-
-
-
-<div class="section contained-section bg-primary faded">
+<!-- TESTIMONIALS -->
+<div class="section testimonials contained-section bg-primary faded">
+    <div class="container container-narrow">
+      <h5 class="heading-sub u-color-black">Relationships. Respect. Results.</h5>
+      <h3 class="heading-main u-color-black">We lead the way for clients who are key players in their fields.</h3>
+    </div><!--/.container-narrow-->
     <div class="container">
+      <div class="services">
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
+        </div><!--/.service-->
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
+        </div><!--/.service-->
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
+        </div><!--/.service-->
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
+        </div><!--/.service-->
+      </div><!--/.services-->
+      <div class="testimonials__wrapper">
+        <h5 class="heading-sub u-color-black">Testimonials</h5>
         <div data-delay="4000" data-animation="slide" data-autoplay="1" data-nav-spacing="7" data-duration="500" data-infinite="1" class="testimonial-slider w-slider">
             <div class="w-slider-mask">
-                <div class="testimonial-slide w-slide"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c5ee836b8ed_avatar-1.jpg" alt="" class="avatar avatar-large" />
-                    <h2 class="testimonial-text">“They strike the perfect balance between personable and professional.”</h2>
+                <div class="testimonial-slide w-slide">
+                    <h4 class="testimonial-text">“They strike the perfect balance between personable and professional.”</h4>
                     <div>– Andrew Clinton, Patron</div>
                 </div>
-                <div class="testimonial-slide w-slide"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c20b936b8f3_avatar-3.jpg" alt="" class="avatar avatar-large" />
-                    <h2 class="testimonial-text">“The best for a reason – these guys know their stuff”</h2>
+                <div class="testimonial-slide w-slide">
+                    <h4 class="testimonial-text">“The best for a reason – these guys know their stuff”</h4>
                     <div>– Anabelle Porter, Patron</div>
                 </div>
-                <div class="testimonial-slide w-slide"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c6eac36b8ee_avatar-2.jpg" alt="" class="avatar avatar-large" />
-                    <h2 class="testimonial-text">“The team assisted in all facets of our campaign and knocked it out of the park”</h2>
+                <div class="testimonial-slide w-slide">
+                    <h4 class="testimonial-text">“The team assisted in all facets of our campaign and knocked it out of the park”</h4>
                     <div>– Anwar Sing, Unvest</div>
                 </div>
             </div>
@@ -112,8 +129,13 @@
             <div class="slider-arrow w-slider-arrow-right"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cf42c36b8f5_icon-arrow-right-white.svg" alt="" /></div>
             <div class="slide-nav w-slider-nav w-round"></div>
         </div>
-    </div>
-</div>
+      </div><!--/.testimonials__wrapper-->
+    </div><!--/.container-->
+</div><!--/.section-->
+
+
+
+
 
 
 <div class="section contained-section contained-section-large bg-tertiary">
