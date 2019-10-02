@@ -3,17 +3,124 @@
 *********************************************************/
 
 .section {
-  padding: 5em 0;
+  position: relative;
+  padding-bottom: 180px;
+  background-color: $color__white;
 }
 
-.section--sm {
-  padding: 3em 0;
+.section.style-guide-section {
+  padding-bottom: 90px;
 }
 
-.section--md {
-  padding: 7em 0;
+.section.first-section {
+  padding-top: 180px;
 }
 
-.section--lg {
-  padding: 9em 0;
+.section.first-section.text-center {
+  text-align: center;
+}
+
+.section.contained-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section.contained-section.bg-primary.faded {
+  color: $color__primary;
+}
+
+.section.contained-section.bg-primary.overflow-hidden {
+  overflow: hidden;
+}
+
+.section.contained-section.contained-section-large {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.section.contained-section.contained-section-large.bg-primary {
+  overflow: hidden;
+}
+
+.section.contained-section.contained-section-large.bg-secondary.faded {
+  overflow: hidden;
+}
+
+.section.contained-section.contained-section-large.bg-tertiary {
+  background-color: #1d2b24;
+  color: $color__white;
+}
+
+.section.contained-section.bg-secondary.faded {
+  background-color: rgba(192, 170, 129, 0.1);
+}
+
+.section.flush-bottom-section {
+  padding-top: 90px;
+  padding-bottom: 0px;
+}
+
+.section.flush-bottom-section.bg-primary.faded {
+  color: #344e41;
+}
+
+.section.flush-bottom-section.bg-primary.faded.overflow-hidden {
+  overflow: hidden;
+}
+
+.section.block-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 0px;
+}
+
+.section.blog-title-section {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.section.blog-posts-section {
+  padding-bottom: 150px;
+}
+
+.section.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-image.about-hero {
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cad1a36b8f9_about-bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.bg-image.home-hero {
+  background-color: transparent;
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b2a88a9f350da1ef278c_hero-home.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.bg-image.careers-hero {
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c18fe36b907_careers-bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.bg-image.case-study-background {
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
+  background-position: 50% 50%;
+  background-size: cover;
 }

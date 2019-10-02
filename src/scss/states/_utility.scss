@@ -3,6 +3,19 @@
   @NOTE: prefix with ".u-"
 *********************************************************/
 
+.bg-primary {
+  background-color: $color__primary;
+  color: $color__white;
+}
+
+.bg-primary.faded {
+  background-color: rgba(52, 78, 65, 0.1);
+}
+
+.text-white {
+  color: $color__white;
+}
+
 /**
   * Visibility
   */

@@ -2,153 +2,194 @@
   Header & Navs
 *********************************************************/
 
-/**
-  * Header
-  */
-.header {
+.navigation-bar {
   position: relative;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: rem(30);
-  background-color: $color__primary;
-  color: $color__white;
-  z-index: 30;
+  z-index: 3;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid rgba(52, 78, 65, 0.1);
 }
 
-.header__row {
-  justify-content: space-between;
-}
-
-.header__logo {}
-
-.header__logo a {
-  color: $color__white;
-}
-
-.header__logo-wrapper {}
-
-
-
-
-
-/**
-  * Nav
-  */
-.nav__inner {
-  display: flex;
-  justify-content: flex-end;
-}
-.nav__inner li {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  &:last-of-type {
-    padding-right: 0;
-  }
-}
-.nav__inner li a {
-  color: $color__white;
-}
-
-
-/**
-  * Nav-Toggle 
-  */
-$bar-width: 40px;
-$bar-height: 5px;
-$bar-spacing: 10px;
-$height-icon: 20px;
-$width-line: 35px;
-$height-line: 2px;
-$transition-time: 0.25s;
-$rotation: 45deg;
-$translateY: ($height-icon / 2);
-$translateX: 0;
-
-.nav-toggle {
-  width: $width-line;
-  height: $height-icon;
-  position: relative;
-  margin: 0;
-  &:hover, &:focus {
-    .nav-toggle__line--1 {
-      transform: translateY($height-line / 2 * -1);
-     }
-    .nav-toggle__line--3 {
-      transform: translateY($height-line / 2);
-    }
-  }
-  &.active {
-    .nav-toggle__line--1 {
-      transform: translateY($translateY) translateX($translateX) rotate($rotation);
-    }
-    .nav-toggle__line--2 {
-      opacity:0;
-    }
-    .nav-toggle__line--3 {
-      transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
-    }
-  }
-}
-
-.nav-toggle__line {
-  display: block;
+.navigation-bar.navigation-bar-overlay {
   position: absolute;
-  right: 0;
-  background: $color__white;
-  width: $width-line;
-  height: $height-line;
-  transition: all $transition-time;
-  &--1 {
-    top: 0;
-  }
-  &--2 {
-    top: 50%;
-  }
-  &--3 {
-    top: 100%;
-  }
+  z-index: 2;
+  width: 100vw;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  color: #fff;
 }
 
-/**
-  * Nav-Mobile 
-  */
-.nav-mobile {
-  opacity: 0;
-  visibility: hidden;
+.navigation-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navigation-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.navigation-menu-item {
+  margin-right: 15px;
+  margin-left: 15px;
+  opacity: 0.5;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.navigation-menu-item:hover {
+  opacity: 1;
+}
+
+.navigation-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navigation-additional-controls {
+  margin-left: 30px;
+  padding-left: 0px;
+  border-left: 1px solid rgba(52, 78, 65, 0.1);
+}
+
+.navigation-additional-controls.white {
+  border-left-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.navigation-control {
+  margin-right: 0px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.navigation-control.mobile-toggle {
+  display: none;
+}
+
+.info-bar {
+  position: relative;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: rgba(192, 170, 129, 0.1);
+}
+
+.navigation-dropdown-item-toggle {
+  padding: 0px 15px 0px 0px;
+  color: #344e41;
+}
+
+.navigation-dropdown-item-toggle.text-white {
+  color: #fff;
+}
+
+.dropdown-icon {
+  margin-right: 0px;
+  font-size: 12px;
+}
+
+.dropdown-list.w--open {
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(52, 78, 65, 0.1);
+  background-color: #fff;
+  color: #344e41;
+}
+
+.dropdown-link {
+  padding: 5px 15px;
+  opacity: 0.5;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.dropdown-link:hover {
+  opacity: 1;
+}
+
+.dropdown-link.w--current {
+  opacity: 1;
+  color: #344e41;
+}
+
+/* Search */
+.search-modal {
   position: fixed;
-  background: $color__primary;
-  height: 100vh;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 900;
+  display: none;
   width: 100%;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 60px;
-  padding-top: 100px;
-  overflow: hidden;
-  transform: translateX(100%);
-  transition: transform 0.3s, ease-out 0.3s;
-  will-change: transform;
-  z-index: 20;
-  &.nav-open {
-    opacity: 1;
-    overflow-y: scroll;
-    visibility: visible;
-    transform: translateX(0);
-  }
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1d2b24;
+  color: #fff;
 }
 
-.nav-mobile__inner {
-  width: auto;
-  height: 100vh;
+.search-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.nav-mobile li a {
-  display: block;
-  width: 100%;
-  padding: 10px 0;
-  color: $color__white;
+.search-form.modal-search-form {
+  margin-bottom: 0px;
 }
 
-// Classes added on trigger, if needed
-body.nav-open {}
+.modal-cross {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.menu-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.menu-column-list-item {
+  margin-bottom: 15px;
+}
