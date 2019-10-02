@@ -20,50 +20,47 @@
 </div><!--/.hero-section-->
 
 
+<!-- INTRO -->
 <div id="First-Section" class="section first-section text-center">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container container-narrow">
-        <h5>Human-First Public Relations</h5>
-        <h2>Founded in 1994, Partner is one of Australia’s leading PR Firms</h2>
-        <a data-w-id="1df08b3b-6d2e-6f6e-6bf8-2de5949a0504" href="/about" class="underline-link w-inline-block">
-            <div>Learn about Partner</div>
-            <div class="underline-container">
-                <div class="underline-track"></div>
-                <div class="underline-progress"></div>
-            </div>
-        </a>
+        <h2>Unmatched Experience. Backed by Trust.</h2>
+        <p>Ronald L. Book, P.A. specializes in all aspects of governmental and public affairs, including <strong>government, state, local</strong> and <strong>federal</strong>.</p>
+        <p>Whether it is a complex problem involving multiple branches of government, strickly a legislative matter, or issue advocacy beyond the halls of the Capitol, our team will give your issue the edge needed to deliver results.</p>
+        <a class="button" href="">Meet Our Team</a>
     </div>
 </div>
-<div id="First-Section" class="section">
+
+<!-- AREAS OF PRACTICE -->
+<div class="section contained-section bg-primary faded">
     <div class="container">
-        <div class="w-dyn-list">
-            <div class="w-dyn-items">
-                <div data-w-id="0fdf4921-561e-0451-754d-789b701cc796" class="story-block case-study-story-block w-dyn-item">
-                    <a style="background-image:url(&quot;https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c041c36b952_case-study-1.jpg&quot;)" href="/case/impact-fitness" class="story-block-image-container w-inline-block"></a>
-                    <div class="boxed boxed-large story-block-content">
-                        <a href="/service/social-media" class="badge case-study-badge w-inline-block">
-                            <div>Social Media</div>
-                        </a><a href="/case/impact-fitness" class="w-inline-block"><h3>Launching a budding fitness brand on the West Coast</h3><div>How we helped Impact Fitness</div></a></div>
-                </div>
-                <div data-w-id="0fdf4921-561e-0451-754d-789b701cc796" class="story-block case-study-story-block w-dyn-item">
-                    <a style="background-image:url(&quot;https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c5f7536b951_case-study-4.jpg&quot;)" href="/case/unvest-accounting" class="story-block-image-container w-inline-block"></a>
-                    <div class="boxed boxed-large story-block-content">
-                        <a href="/service/employee-engagement" class="badge case-study-badge w-inline-block">
-                            <div>Employee Engagement</div>
-                        </a><a href="/case/unvest-accounting" class="w-inline-block"><h3>Fostering authentic staff connections in a multi-national</h3><div>How we helped Unvest Accounting</div></a></div>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <a data-w-id="996d9c96-92d2-df98-2391-fc99e2d6c057" href="/case-studies" class="underline-link w-inline-block">
-                <div>Explore more Case Studies</div>
-                <div class="underline-container">
-                    <div class="underline-track"></div>
-                    <div class="underline-progress"></div>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
+      <h5 class="u-heading-sm u-color-black">Areas of Practice</h5>
+      <h2 class="u-color-black">Influence for Lasting Change</h2>
+      <div class="services">
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
+          <div class="service__title h4">Lobbying</div>
+        </div><!--/.service-->
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
+          <div class="service__title h4">Government Affairs</div>
+        </div><!--/.service-->
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
+          <div class="service__title h4">Procurement</div>
+        </div><!--/.service-->
+        <div class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
+          <div class="service__title h4">Business Development</div>
+        </div><!--/.service-->
+      </div><!--/.services-->
+      <a data-w-id="" href="/about" class="service__link underline-link w-inline-block"><div>Learn More</div><div class="underline-container"><div class="underline-track"></div><div style="width: 0%;" class="underline-progress"></div></div></a>
+    </div><!--/.container-->
+    <div class="decoration ring testimonials-ring"></div>
+</div><!--/.section-->
+
+
+
+
 
 
 
@@ -89,7 +86,6 @@
             <div class="slide-nav w-slider-nav w-round"></div>
         </div>
     </div>
-    <div data-w-id="6c92d88e-c8f2-87f7-7fb6-f7808bca33a0" class="decoration ring testimonials-ring"></div>
 </div>
 
 
