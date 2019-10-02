@@ -1,13 +1,10 @@
+<!DOCTYPE html>
 
-<!DOCTYPE html><!-- This site was created in Webflow. http://www.webflow.com --><!-- Last Published: Tue Oct 01 2019 20:17:17 GMT+0000 (UTC) --><html data-wf-domain="rlbpa.webflow.io" data-wf-page="5d93b1aa23f45cb77536b8b6" data-wf-site="5d93b1aa23f45c2c9836b8b3" data-wf-status="1"><head><meta charset="utf-8"/><title>Partner - Webflow HTML Website Template</title><meta content="A stylish, fully featured business template for Webflow CMS." name="description"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/css/rlbpa.webflow.eef42fb78.css" rel="stylesheet" type="text/css"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Cardo:regular","Cabin:regular,italic,500,500italic"]  }});</script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]--><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7f5536b908_favicon-32x32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c4b2b36b909_favicon.png" rel="apple-touch-icon"/><style>
-body{
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-</style>
-
+<html <?php language_attributes(); ?> data-wf-page="5d93b1aa23f45cb77536b8b6" data-wf-site="5d93b1aa23f45c2c9836b8b3" data-wf-status="1">
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <?php wp_head(); ?>
-
 </head>
 
 <?php

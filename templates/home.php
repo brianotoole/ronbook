@@ -6,14 +6,14 @@
 
 <!-- HERO -->
 <div class="hero-section">
-    <div style="opacity:0;-webkit-transform:translate3d(30PX, 60PX, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(30PX, 60PX, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(30PX, 60PX, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(30PX, 60PX, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);filter:blur(10px)" class="bg-image-container">
+    <div class="bg-image-container">
         <div class="bg-image home-hero"></div>
     </div>
     <div class="container hero-container">
         <div class="hero-content-container">
-            <h1 style="opacity:0" class="heading-one-xl hero-heading">Florida&#x27;s Perennial Leader in Government Relations</h1>
-            <h4 style="opacity:0" class="hero-subtitle">A full-service lobbying &amp; governmental relations firm since 1980.</h4>
-            <a href="#First-Section" style="opacity:0;-webkit-transform:translate3d(0, -30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-icon hero-next-button w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c76fb36b8db_icon-arrow-down.svg" alt="" /></a>
+            <h1 class="hero-heading">Florida's Perennial Leader in Government Relations</h1>
+            <h4 class="hero-subtitle">A full-service lobbying &amp; governmental relations firm since 1980.</h4>
+            <a href="#First-Section" class="button-icon hero-next-button w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c76fb36b8db_icon-arrow-down.svg" alt="" /></a>
         </div>
     </div>
     <div data-w-id="eb932dbb-19c7-a38e-6f4a-e8d79560b11f" class="decoration ring home-hero-ring"></div>
@@ -21,14 +21,14 @@
 
 
 <div id="First-Section" class="section first-section text-center">
-    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" style="opacity:0" class="container container-narrow">
+    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container container-narrow">
         <h5>Human-First Public Relations</h5>
         <h2>Founded in 1994, Partner is one of Australia’s leading PR Firms</h2>
         <a data-w-id="1df08b3b-6d2e-6f6e-6bf8-2de5949a0504" href="/about" class="underline-link w-inline-block">
             <div>Learn about Partner</div>
             <div class="underline-container">
                 <div class="underline-track"></div>
-                <div style="width:0%" class="underline-progress"></div>
+                <div class="underline-progress"></div>
             </div>
         </a>
     </div>
@@ -37,14 +37,14 @@
     <div class="container">
         <div class="w-dyn-list">
             <div class="w-dyn-items">
-                <div data-w-id="0fdf4921-561e-0451-754d-789b701cc796" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="story-block case-study-story-block w-dyn-item">
+                <div data-w-id="0fdf4921-561e-0451-754d-789b701cc796" class="story-block case-study-story-block w-dyn-item">
                     <a style="background-image:url(&quot;https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c041c36b952_case-study-1.jpg&quot;)" href="/case/impact-fitness" class="story-block-image-container w-inline-block"></a>
                     <div class="boxed boxed-large story-block-content">
                         <a href="/service/social-media" class="badge case-study-badge w-inline-block">
                             <div>Social Media</div>
                         </a><a href="/case/impact-fitness" class="w-inline-block"><h3>Launching a budding fitness brand on the West Coast</h3><div>How we helped Impact Fitness</div></a></div>
                 </div>
-                <div data-w-id="0fdf4921-561e-0451-754d-789b701cc796" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="story-block case-study-story-block w-dyn-item">
+                <div data-w-id="0fdf4921-561e-0451-754d-789b701cc796" class="story-block case-study-story-block w-dyn-item">
                     <a style="background-image:url(&quot;https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c5f7536b951_case-study-4.jpg&quot;)" href="/case/unvest-accounting" class="story-block-image-container w-inline-block"></a>
                     <div class="boxed boxed-large story-block-content">
                         <a href="/service/employee-engagement" class="badge case-study-badge w-inline-block">
@@ -58,7 +58,7 @@
                 <div>Explore more Case Studies</div>
                 <div class="underline-container">
                     <div class="underline-track"></div>
-                    <div style="width:0%" class="underline-progress"></div>
+                    <div class="underline-progress"></div>
                 </div>
             </a>
         </div>
@@ -98,7 +98,7 @@
         <h5 class="services-heading">Areas where we assist</h5>
         <div class="w-dyn-list">
             <div class="w-dyn-items">
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="services-list-item w-dyn-item">
+                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
                     <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/brand-marketing" class="underline-link underline-link-white w-inline-block">
                         <div class="display-3 service-link-heading">Brand Marketing</div>
                         <div class="underline-container">
@@ -107,7 +107,7 @@
                         </div>
                     </a>
                 </div>
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="services-list-item w-dyn-item">
+                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
                     <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/employee-engagement" class="underline-link underline-link-white w-inline-block">
                         <div class="display-3 service-link-heading">Employee Engagement</div>
                         <div class="underline-container">
@@ -116,7 +116,7 @@
                         </div>
                     </a>
                 </div>
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="services-list-item w-dyn-item">
+                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
                     <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/influencer" class="underline-link underline-link-white w-inline-block">
                         <div class="display-3 service-link-heading">Influencer</div>
                         <div class="underline-container">
@@ -125,7 +125,7 @@
                         </div>
                     </a>
                 </div>
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="services-list-item w-dyn-item">
+                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
                     <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/social-media" class="underline-link underline-link-white w-inline-block">
                         <div class="display-3 service-link-heading">Social Media</div>
                         <div class="underline-container">
@@ -146,7 +146,7 @@
         <h2 class="section-title">Recent News</h2>
         <div class="w-dyn-list">
             <div class="row blog-row w-dyn-items">
-                <div data-w-id="8cc310a2-7869-7c22-5e73-c03db162a658" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="column blog-post-column w-dyn-item">
+                <div data-w-id="8cc310a2-7869-7c22-5e73-c03db162a658" class="column blog-post-column w-dyn-item">
                     <a href="/post/our-client-collaboration-process-in-detail" class="blog-grid-image-holder w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45cbf8436b94a_blog-article-1.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45cbf8436b94a_blog-article-1-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45cbf8436b94a_blog-article-1.jpg 1200w" /></a>
                     <div class="boxed boxed-large">
                         <div class="blog-meta">
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-w-id="8cc310a2-7869-7c22-5e73-c03db162a658" style="-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="column blog-post-column w-dyn-item">
+                <div data-w-id="8cc310a2-7869-7c22-5e73-c03db162a658" class="column blog-post-column w-dyn-item">
                     <a href="/post/navigating-the-complexity-of-change-aversion" class="blog-grid-image-holder w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c340a36b94b_blog-article-4.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c340a36b94b_blog-article-4-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c340a36b94b_blog-article-4.jpg 1200w" /></a>
                     <div class="boxed boxed-large">
                         <div class="blog-meta">
@@ -185,7 +185,7 @@
                 <div>Visit the Blog</div>
                 <div class="underline-container">
                     <div class="underline-track"></div>
-                    <div style="width:0%" class="underline-progress"></div>
+                    <div class="underline-progress"></div>
                 </div>
             </a>
         </div>

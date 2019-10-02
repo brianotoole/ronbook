@@ -9,31 +9,158 @@
 html {
   font-size: 100%;
   background-color: $color__white;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+  height: 100%;
   min-width: 300px;
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
+}
+
+html[data-w-dynpage] [data-w-cloak] {
+  color: transparent !important
+}
+
+html.w-mod-touch * {
+  background-attachment: scroll !important
 }
 
 body {
-  font-size: $font-size;
+  background-color: $color__primary;
   font-family: $font__body;
-  font-weight: 300;
-  line-height: 1.6;
   color: $color__text;
-  overflow-x: hidden;
+  font-size: $font-size;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#page { // global WP page wrapper
-  position: absolute;
-  width: 100%;
-  overflow-x: hidden;
+/*********************************************************
+  Typography
+*********************************************************/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font__heading;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: rem(30);
+}
+
+h1, .h1 {
+  font-size: rem(34);
+  @media (min-width: $tablet) {
+    font-size: rem(64);
+  }
+}
+
+h2, .h2 {
+  font-size: rem(28);
+  @media (min-width: $tablet) {
+    font-size: rem(54);
+  }
+}
+
+h3, .h3 {
+  font-size: rem(26);
+  @media (min-width: $tablet) {
+    font-size: rem(40);
+  }
+}
+
+h4, .h4 {
+  font-size: rem(19);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  @media (min-width: $tablet) {
+    font-size: rem(24);
+  }
+}
+
+h5, .h5 {
+  font-size: rem(17);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  @media (min-width: $tablet) {
+    font-size: rem(20);
+  }
+}
+
+h6, .h6 {
+  font-size: rem(16);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  @media (min-width: $tablet) {
+    font-size: rem(16);
+  }
+}
+
+p {
+  margin-bottom: rem(30);
+}
+
+a {
+  color: $color__primary;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover, &:focus {
+    color: $color__primary--dark;
+  }
+}
+
+blockquote {
+  margin-bottom: 0px;
+  padding: 90px 90px 60px;
+  border-left: 5px none $color__border;
+  background-color: rgba(52, 78, 65, 0.1);
+  font-family: $font__heading;
+  line-height: 45px;
+}
+
+label {
+  display: block;
+  margin-bottom: rem(10);
+  font-weight: 400;
+}
+
+figure {
+  margin-bottom: rem(10);
+}
+
+figcaption {
+  margin-top: rem(5);
+  font-size: 1rem;
+  text-align: center;
+}
+
+strong { 
+  color: currentColor; 
+}
+
+address {
+  font-style: normal;
+}
+
+blockquote {
+  color: $color__primary;
+}
+
+pre {
+  padding: rem(20);
+  background: $color__black;
+  color: $color__white;
 }
 
 img {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block
+}
+
+// WP the_content()
+.entry-content ul {
+  list-style-type: disc;
+  padding-left: rem(20)
 }

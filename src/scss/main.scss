@@ -1,6 +1,12 @@
 /*********************************************************
   Main.scss == Table of Contents
 *********************************************************/
+
+@import 'global/variables';
+@import 'global/mixins';
+
 @import 'global/normalize';
+@import 'global/fonts';
+@import 'global/base';
 @import 'global/webflow';
 @import 'global/site';

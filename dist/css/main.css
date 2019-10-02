@@ -1,6 +1,31 @@
 /*********************************************************
   Main.scss == Table of Contents
 *********************************************************/
+/*********************************************************
+  Variables
+  @NOTE: variable naming is using BEM conventions
+*********************************************************/
+/*********************************************************
+  Mixins
+*********************************************************/
+/**
+  * PX to REM Conversion
+  * USAGE: .class {font-size: rem(18)}
+  */
+/**
+  * Fluid Property
+  * Make a property fluidly responsive by using calc and viewport units.
+  * USAGE: @include fluid-property(height, 200, 400)
+  */
+/**
+  * Fluid Text
+  * Make font-size property fluidly responsive by using calc and viewport units.
+  * USAGE: @include fluid-text(20, 40)
+  */
+/**
+  * Clearfix
+  * Usage: @include clearfix()
+  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -358,6 +383,291 @@ td,
 th {
   padding: 0; }
 
+/*********************************************************
+    Fonts
+*********************************************************/
+/*
+@font-face {
+  font-family: 'brownbold';
+  src: url('../fonts/lineto-brown-bold.eot') format('eot'),
+       url('../fonts/lineto-brown-bold.woff') format('woff'),
+       url('../fonts/lineto-brown-bold.ttf') format('ttf'),
+       url('../fonts/lineto-brown-bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+};
+*/
+/* greek-ext */
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cardo"), local("Cardo-Regular"), url(https://fonts.gstatic.com/s/cardo/v11/wlp_gwjKBV1pqhv03IE7225PUCk.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cardo"), local("Cardo-Regular"), url(https://fonts.gstatic.com/s/cardo/v11/wlp_gwjKBV1pqhv73IE7225PUCk.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cardo"), local("Cardo-Regular"), url(https://fonts.gstatic.com/s/cardo/v11/wlp_gwjKBV1pqhv23IE7225PUCk.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cardo"), local("Cardo-Regular"), url(https://fonts.gstatic.com/s/cardo/v11/wlp_gwjKBV1pqhv43IE7225P.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Cabin Italic"), local("Cabin-Italic"), url(https://fonts.gstatic.com/s/cabin/v14/u-4_0qWljRw-Pd81z_BCngZscwZxXg.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Cabin Italic"), local("Cabin-Italic"), url(https://fonts.gstatic.com/s/cabin/v14/u-4_0qWljRw-Pd81z_FCngZscwZxXg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Cabin Italic"), local("Cabin-Italic"), url(https://fonts.gstatic.com/s/cabin/v14/u-4_0qWljRw-Pd81z_9CngZscwY.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Cabin Medium Italic"), local("Cabin-MediumItalic"), url(https://fonts.gstatic.com/s/cabin/v14/u-460qWljRw-Pd81xwxhiyROfixLV-fHrw.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Cabin Medium Italic"), local("Cabin-MediumItalic"), url(https://fonts.gstatic.com/s/cabin/v14/u-460qWljRw-Pd81xwxhiyVOfixLV-fHrw.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Cabin Medium Italic"), local("Cabin-MediumItalic"), url(https://fonts.gstatic.com/s/cabin/v14/u-460qWljRw-Pd81xwxhiytOfixLV-c.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin"), local("Cabin-Regular"), url(https://fonts.gstatic.com/s/cabin/v14/u-4x0qWljRw-Pd8___1ImSRuQwc.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin"), local("Cabin-Regular"), url(https://fonts.gstatic.com/s/cabin/v14/u-4x0qWljRw-Pd8-__1ImSRuQwc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin"), local("Cabin-Regular"), url(https://fonts.gstatic.com/s/cabin/v14/u-4x0qWljRw-Pd8w__1ImSRu.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Cabin Medium"), local("Cabin-Medium"), url(https://fonts.gstatic.com/s/cabin/v14/u-480qWljRw-PdfD3OhquylEeQ5JZ-Y.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Cabin Medium"), local("Cabin-Medium"), url(https://fonts.gstatic.com/s/cabin/v14/u-480qWljRw-PdfD3OhruylEeQ5JZ-Y.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Cabin Medium"), local("Cabin-Medium"), url(https://fonts.gstatic.com/s/cabin/v14/u-480qWljRw-PdfD3OhluylEeQ5J.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/*********************************************************
+  Base Styling
+*********************************************************/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  background-color: #fff;
+  height: 100%;
+  min-width: 300px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+html[data-w-dynpage] [data-w-cloak] {
+  color: transparent !important; }
+
+html.w-mod-touch * {
+  background-attachment: scroll !important; }
+
+body {
+  background-color: #014F39;
+  font-family: Cabin, sans-serif;
+  color: #141414;
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*********************************************************
+  Typography
+*********************************************************/
+h1, h2, h3, h4, h5, h6 {
+  font-family: Cardo, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 1.875rem; }
+
+h1, .h1 {
+  font-size: 2.125rem; }
+  @media (min-width: 768px) {
+    h1, .h1 {
+      font-size: 4rem; } }
+
+h2, .h2 {
+  font-size: 1.75rem; }
+  @media (min-width: 768px) {
+    h2, .h2 {
+      font-size: 3.375rem; } }
+
+h3, .h3 {
+  font-size: 1.625rem; }
+  @media (min-width: 768px) {
+    h3, .h3 {
+      font-size: 2.5rem; } }
+
+h4, .h4 {
+  font-size: 1.1875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em; }
+  @media (min-width: 768px) {
+    h4, .h4 {
+      font-size: 1.5rem; } }
+
+h5, .h5 {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  letter-spacing: 0.02em; }
+  @media (min-width: 768px) {
+    h5, .h5 {
+      font-size: 1.25rem; } }
+
+h6, .h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em; }
+  @media (min-width: 768px) {
+    h6, .h6 {
+      font-size: 1rem; } }
+
+p {
+  margin-bottom: 1.875rem; }
+
+a {
+  color: #014F39;
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover, a:focus {
+    color: #012c20; }
+
+blockquote {
+  margin-bottom: 0px;
+  padding: 90px 90px 60px;
+  border-left: 5px none #EEEEEE;
+  background-color: rgba(52, 78, 65, 0.1);
+  font-family: Cardo, sans-serif;
+  line-height: 45px; }
+
+label {
+  display: block;
+  margin-bottom: 0.625rem;
+  font-weight: 400; }
+
+figure {
+  margin-bottom: 0.625rem; }
+
+figcaption {
+  margin-top: 0.3125rem;
+  font-size: 1rem;
+  text-align: center; }
+
+strong {
+  color: currentColor; }
+
+address {
+  font-style: normal; }
+
+blockquote {
+  color: #014F39; }
+
+pre {
+  padding: 1.25rem;
+  background: #141414;
+  color: #fff; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block; }
+
+.entry-content ul {
+  list-style-type: disc;
+  padding-left: 1.25rem; }
+
 @font-face {
   font-family: 'webflow-icons';
   src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format("truetype");
@@ -395,30 +705,6 @@ th {
 .w-icon-file-upload-icon:before {
   content: "\E903"; }
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-html {
-  height: 100%; }
-
-body {
-  margin: 0;
-  min-height: 100%;
-  background-color: #fff;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333; }
-
-img {
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block; }
-
-html.w-mod-touch * {
-  background-attachment: scroll !important; }
-
 .w-block {
   display: block; }
 
@@ -454,9 +740,6 @@ html.w-mod-touch * {
 
 input.w-button {
   -webkit-appearance: button; }
-
-html[data-w-dynpage] [data-w-cloak] {
-  color: transparent !important; }
 
 .w-webflow-badge,
 .w-webflow-badge * {
@@ -557,70 +840,6 @@ html[data-w-dynpage] [data-w-cloak] {
   visibility: visible !important;
   opacity: 1 !important;
   vertical-align: middle !important; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-  margin-bottom: 10px; }
-
-h1 {
-  font-size: 38px;
-  line-height: 44px;
-  margin-top: 20px; }
-
-h2 {
-  font-size: 32px;
-  line-height: 36px;
-  margin-top: 20px; }
-
-h3 {
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 20px; }
-
-h4 {
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 10px; }
-
-h5 {
-  font-size: 14px;
-  line-height: 20px;
-  margin-top: 10px; }
-
-h6 {
-  font-size: 12px;
-  line-height: 18px;
-  margin-top: 10px; }
-
-p {
-  margin-top: 0;
-  margin-bottom: 10px; }
-
-blockquote {
-  margin: 0 0 10px 0;
-  padding: 10px 20px;
-  border-left: 5px solid #E2E2E2;
-  font-size: 18px;
-  line-height: 22px; }
-
-figure {
-  margin: 0;
-  margin-bottom: 10px; }
-
-figcaption {
-  margin-top: 5px;
-  text-align: center; }
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 10px;
-  padding-left: 40px; }
 
 .w-list-unstyled {
   padding-left: 0;
@@ -2107,94 +2326,6 @@ textarea.w-select {
 .w-checkbox-input--inputType-custom.w--redirected-focus {
   -webkit-box-shadow: 0px 0px 3px 1px #3898ec;
           box-shadow: 0px 0px 3px 1px #3898ec; }
-
-body {
-  background-color: #1d2b24;
-  font-family: Cabin, sans-serif;
-  color: #344e41;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.02em; }
-
-h1 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: Cardo, sans-serif;
-  font-size: 72px;
-  line-height: 75px;
-  font-weight: 400;
-  letter-spacing: 0em; }
-
-h2 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: Cardo, sans-serif;
-  font-size: 54px;
-  line-height: 60px;
-  font-weight: 400;
-  letter-spacing: 0em; }
-
-h3 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: Cardo, sans-serif;
-  font-size: 40px;
-  line-height: 45px;
-  font-weight: 400;
-  letter-spacing: 0em; }
-
-h4 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 500;
-  letter-spacing: 0.02em; }
-
-h5 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
-  letter-spacing: 0.02em; }
-
-h6 {
-  margin-top: 0px;
-  margin-bottom: 15px;
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 500;
-  letter-spacing: 0.02em; }
-
-p {
-  margin-bottom: 30px; }
-
-a {
-  color: #344e41;
-  text-decoration: none; }
-
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 400; }
-
-blockquote {
-  margin-bottom: 0px;
-  padding: 90px 90px 60px;
-  border-left: 5px none #e2e2e2;
-  background-color: rgba(52, 78, 65, 0.1);
-  font-family: Cardo, sans-serif;
-  font-size: 40px;
-  line-height: 45px; }
-
-figure {
-  margin-bottom: 10px; }
-
-figcaption {
-  margin-top: 5px;
-  font-size: 16px;
-  text-align: center; }
 
 .navigation-bar {
   position: relative;
