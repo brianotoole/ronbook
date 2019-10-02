@@ -2433,46 +2433,7 @@ textarea.w-select {
 .style-guide-color.bg-tertiary.faded {
   background-color: rgba(29, 43, 36, 0.1); }
 
-.hero-section {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  padding-top: 180px;
-  padding-bottom: 90px;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  background-color: #1d2b24;
-  color: #fff; }
-
-.hero-section.services-hero-section {
-  display: block;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start; }
-
-.hero-content-container {
-  max-width: 876px; }
-
-.hero-content-container.case-study-hero-container {
-  margin-bottom: 60px; }
-
-.bg-image-container {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.1; }
-
-.bg-image-container.contact-hero {
-  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7b7436b8fa_contact-bg.jpg");
-  background-position: 0px 0px;
-  background-size: cover; }
-
+/* Hero */
 .decoration {
   position: absolute; }
 
@@ -4525,6 +4486,44 @@ textarea {
 .section.bg-transparent {
   background-color: transparent; }
 
+/*********************************************************
+    Hero
+*********************************************************/
+.hero-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding-top: 180px;
+  padding-bottom: 90px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #014F39;
+  color: #fff; }
+
+.hero-section.services-hero-section {
+  display: block;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.hero-content-container {
+  max-width: 876px; }
+
+.hero-content-container.case-study-hero-container {
+  margin-bottom: 60px; }
+
+.bg-image-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1; }
+
 .bg-image {
   position: absolute;
   left: 0%;
@@ -4534,17 +4533,17 @@ textarea {
   width: 100%;
   height: 100%; }
 
-.bg-image.about-hero {
-  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cad1a36b8f9_about-bg.jpg");
-  background-position: 50% 50%;
-  background-size: cover; }
-
 .bg-image.home-hero {
   background-color: transparent;
   background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b2a88a9f350da1ef278c_hero-home.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat; }
+
+.bg-image.about-hero {
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cad1a36b8f9_about-bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover; }
 
 .bg-image.careers-hero {
   background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c18fe36b907_careers-bg.jpg");
@@ -4554,6 +4553,11 @@ textarea {
 .bg-image.case-study-background {
   background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
   background-position: 50% 50%;
+  background-size: cover; }
+
+.bg-image-container.contact-hero {
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7b7436b8fa_contact-bg.jpg");
+  background-position: 0px 0px;
   background-size: cover; }
 
 /*********************************************************

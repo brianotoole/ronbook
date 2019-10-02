@@ -1,50 +1,89 @@
 /*********************************************************
     Hero
 *********************************************************/
-$header-height: 85px;
-.hero {
+
+.hero-section {
   position: relative;
-  height: 500px;
-  background: $color__secondary;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding-top: 180px;
+  padding-bottom: 90px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: $color__primary;
   color: $color__white;
-  //background: url('../img/bg-hero.png') 0 0 repeat;
-
-  &--full-height {
-    height: calc(100vh - #{$header-height});
-  }
-
-  &--has-overlay {
-    position: relative;
-    &:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background: rgba($color__secondary, 0.8);
-      z-index: 1;
-    }
-  }
-
 }
 
-.hero__content {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  text-align: center;
-  color: $color__white;
-  z-index: 10;
-  @media (min-width: $tablet) {
-    margin: 0 auto;
-    max-width: 65%;
-  }
+.hero-section.services-hero-section {
+  display: block;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
-.hero__title {
-  margin: 0;
+.hero-content-container {
+  max-width: 876px;
 }
 
-.hero__subtitle {}
+.hero-content-container.case-study-hero-container {
+  margin-bottom: 60px;
+}
+
+.bg-image-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+.bg-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-image.home-hero {
+  background-color: transparent;
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b2a88a9f350da1ef278c_hero-home.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+
+.bg-image.about-hero {
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cad1a36b8f9_about-bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.bg-image.careers-hero {
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c18fe36b907_careers-bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.bg-image.case-study-background {
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.bg-image-container.contact-hero {
+  background-image: url("https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7b7436b8fa_contact-bg.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
+}
