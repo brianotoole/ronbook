@@ -1,0 +1,35 @@
+/*********************************************************
+  Home
+*********************************************************/
+
+/* By the Numbers */
+.numbers__wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.numbers__col-stats {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.numbers__col-image {
+  display: inline-block;
+  width: 52%;
+  height: 700px;
+  background-image: url("../img/home-numbers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.numbers__stat {
+  margin-bottom: 7.5px;
+}
+
+.numbers__stat-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 45px;
+}

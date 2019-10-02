@@ -7,11 +7,6 @@
   * Headings
   */
 
-.u-heading-sm {
-  text-transform: uppercase;
-  font-family: $font__body;
-}
-
 
 /**
   * Visibility
@@ -68,6 +63,10 @@
   color: $color__secondary;
 }
 
+.text-white {
+  color: $color__white;
+}
+
 /**
   * Background Colors
   */
@@ -79,10 +78,6 @@
   
   .bg-primary.faded {
     background-color: rgba(52, 78, 65, 0.1);
-  }
-  
-  .text-white {
-    color: $color__white;
   }
 
 .u-bg-primary {

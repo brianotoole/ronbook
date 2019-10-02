@@ -20,6 +20,8 @@
 </div><!--/.hero-section-->
 
 
+
+
 <!-- INTRO -->
 <div id="First-Section" class="section first-section text-center">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container container-narrow">
@@ -30,11 +32,13 @@
     </div>
 </div>
 
+
+
 <!-- AREAS OF PRACTICE -->
 <div class="section contained-section bg-primary faded">
     <div class="container">
-      <h5 class="u-heading-sm u-color-black">Areas of Practice</h5>
-      <h2 class="u-color-black">Influence for Lasting Change</h2>
+      <h5 class="heading-sub u-color-black">Areas of Practice</h5>
+      <h2 class="heading-main u-color-black">Influence for Lasting Change</h2>
       <div class="services">
         <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
@@ -55,7 +59,30 @@
       </div><!--/.services-->
       <a data-w-id="" href="/about" class="service__link underline-link w-inline-block"><div>Learn More</div><div class="underline-container"><div class="underline-track"></div><div style="width: 0%;" class="underline-progress"></div></div></a>
     </div><!--/.container-->
-    <div class="decoration ring testimonials-ring"></div>
+    <div data-w-id="eb932dbb-19c7-a38e-6f4a-e8d79560b11f" class="decoration ring testimonials-ring"></div>
+</div><!--/.section-->
+
+
+
+<!-- BY THE NUMBERS -->
+<div class="section contained-section bg-primary">
+    <div class="container">
+      <h5 class="heading-sub u-color-white">Our Experience</h5>
+      <h2 class="heading-main u-color-white">By the Numbers</h2>
+    </div><!--/.container-->
+    <div class="numbers__wrapper">
+      <div class="numbers__col numbers__col-image"></div>
+      <div class="numbers__col numbers__col-stats">
+      <div class="container">
+        <div class="numbers__stat h2">50+</div>
+        <div class="numbers__stat-text">Years of Experience</div>
+        <div class="numbers__stat h2">2 States</div>
+        <div class="numbers__stat-text">Federal Relations</div>
+        <div class="numbers__stat h2">$100M+</div>
+        <div class="numbers__stat-text">Managed Campaigns</div>
+      </div><!--/.container-->
+      </div>
+    </div>
 </div><!--/.section-->
 
 

@@ -97,6 +97,18 @@ h6, .h6 {
   }
 }
 
+// above title, smaller
+.heading-sub {
+  font-family: $font__body;
+  text-transform: uppercase;
+  margin-bottom: 7.5px;
+}
+
+// main title
+.heading-main {
+  margin-bottom: 90px;
+}
+
 p {
   font-size: rem(17);
   margin-bottom: 30px;
