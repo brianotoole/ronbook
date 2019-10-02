@@ -1,44 +1,6 @@
 /*********************************************************
   Main.scss == Table of Contents
 *********************************************************/
-
-/**
-  * -- GLOBAL/BASE
-  */
-@import 'global/variables';
-@import 'global/mixins';
-@import 'global/reset';
-@import 'global/base';
-@import 'global/fonts';
-@import 'global/typography';
-@import 'global/button';
-@import 'global/input';
-@import 'global/table';
-
-/**
-  * -- LAYOUT
-  */
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/section';
-@import 'layout/hero';
-
-/**
-  * -- COMPONENTS
-  */
-@import 'components/basic-content';
-@import 'components/alt-content';
-@import 'components/modal';
-@import 'components/carousel';
-
-/**
-  * -- TEMPLATES
-  */
-@import 'templates/about';
-
-/**
-  * -- STATES 
-  */
-@import 'states/animation';
-@import 'states/utility';
+@import 'global/normalize';
+@import 'global/webflow';
+@import 'global/site';

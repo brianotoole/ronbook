@@ -3,15 +3,16 @@
 *********************************************************/
 
 // GLOBAL
-require('./global/events.js');
- 
+require('./build.js'); //via webflow export
+//require('./global/events.js');
+
 // COMPONENTS
 // @TODO: convert to es6
-require('./components/nav.js');
-require('./components/social-sharing.js')
+//require('./components/nav.js');
+//require('./components/social-sharing.js')
 
-import Modal from './components/modal';
-var modal = new Modal();
- 
+//import Modal from './components/modal';
+//var modal = new Modal();
+
 // TEMPLATES
 //require('./templates/about.js');
