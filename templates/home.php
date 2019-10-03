@@ -214,42 +214,10 @@
 
 
 
-<div class="section flush-bottom-section bg-primary faded overflow-hidden">
+<div class="section cta bg-primary overflow-hidden">
     <div class="container">
-        <div class="row team-cta-row">
-            <div class="column"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c200236b8f6_avatar-cutout.png" srcset="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c200236b8f6_avatar-cutout-p-500.png 500w, https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c200236b8f6_avatar-cutout.png 560w" sizes="(max-width: 767px) 203px, (max-width: 991px) 283px, 373px" data-w-id="035e7303-728d-d173-2546-ff27aa74b958" alt="" class="team-cta-image" /></div>
-            <div data-w-id="035e7303-728d-d173-2546-ff27aa74b959" class="column team-cta-text-column">
-                <h3 class="display-3">We’re here to help you out.</h3>
-                <p>Occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a data-w-id="035e7303-728d-d173-2546-ff27aa74b95e" href="/team" class="underline-link w-inline-block">
-                    <div>Meet the team</div>
-                    <div class="underline-container">
-                        <div class="underline-track"></div>
-                        <div class="underline-progress"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="section contained-section bg-primary overflow-hidden">
-    <div class="container cta-container">
-        <h3 class="cta-heading">Let’s find your brand’s voice.</h3>
-        <div class="flex-row"><a href="/contact" class="button button-secondary style-guide-button button-round w-button">Get In Touch</a>
-            <div class="flex-row">
-                <div>or call at</div>
-                <a data-w-id="e243cfb7-fd9e-8a1d-fc6f-e14c8cd05fe1" href="#" class="underline-link underline-link-white text-spacer w-inline-block">
-                    <div>1800-644-535</div>
-                    <div class="underline-container">
-                        <div class="underline-track underline-track-white"></div>
-                        <div class="underline-progress underline-progress-white"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
+        <h2 class="cta-heading">Let's Work Together</h3>
+        <a href="/contact" class="button button-secondary">Get In Touch</a>
     </div>
     <div data-w-id="e243cfb7-fd9e-8a1d-fc6f-e14c8cd05fe7" class="decoration ring cta-ring"></div>
 </div>

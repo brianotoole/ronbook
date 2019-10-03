@@ -4421,6 +4421,7 @@ textarea {
 *********************************************************/
 .section {
   position: relative;
+  padding-top: 180px;
   padding-bottom: 180px;
   background-color: #fff; }
 
@@ -4715,7 +4716,7 @@ textarea {
 
 .numbers__col-image {
   display: inline-block;
-  width: 52%;
+  width: 50%;
   height: 700px;
   background-image: url(../../dist/img/home-numbers.jpg);
   background-repeat: no-repeat;
@@ -4815,6 +4816,14 @@ textarea {
 
 .feat-case-study__link {
   color: #fff; }
+
+/* CTA */
+.cta {
+  margin: 0 auto;
+  text-align: center; }
+
+.cta-heading {
+  margin-bottom: 45px; }
 
 /*********************************************************
   Utility / Helper Classes

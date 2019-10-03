@@ -22,7 +22,7 @@
 
 .numbers__col-image {
   display: inline-block;
-  width: 52%;
+  width: 50%;
   height: 700px;
   background-image: url("../img/home-numbers.jpg");
   background-repeat: no-repeat;
@@ -130,4 +130,15 @@
 
 .feat-case-study__link {
   color: $color__white;
+}
+
+
+/* CTA */
+.cta {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-heading {
+  margin-bottom: 45px;
 }
