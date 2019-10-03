@@ -4,25 +4,24 @@
 
 
 .button {
-  padding: 15px 30px;
-  border-radius: 4px;
-  background-color: #344e41;
-  -webkit-transition: opacity 200ms ease;
-  transition: opacity 200ms ease;
-  color: #fff;
+  padding: 15px 45px;
+  border-radius: 30px;
+  background-color: $color__primary;
+  color: $color__white;
   font-weight: 500;
-}
-
-.button:hover {
-  opacity: 0.8;
-}
-
-.button.style-guide-button {
-  margin-right: 30px;
+  transition: background 0.2s ease;
+  &:hover {
+    background-color: $color__primary--dark;
+    color: $color__white;
+  }
 }
 
 .button.button-secondary {
-  background-color: #c0aa81;
+  background-color: $color__secondary;
+  &:hover {
+    background-color: $color__secondary--dark;
+    color: $color__white;
+  }
 }
 
 .button.button-round {
@@ -30,9 +29,6 @@
 }
 
 .button-icon {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 60px;
   height: 60px;

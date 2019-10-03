@@ -23,12 +23,12 @@
 
 
 <!-- INTRO -->
-<div id="First-Section" class="section first-section text-center">
+<div id="First-Section" class="section intro first-section text-center">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container container-narrow">
         <h2>Unmatched Experience. Backed by Trust.</h2>
         <p>Ronald L. Book, P.A. specializes in all aspects of governmental and public affairs, including <strong>government, state, local</strong> and <strong>federal</strong>.</p>
         <p>Whether it is a complex problem involving multiple branches of government, strickly a legislative matter, or issue advocacy beyond the halls of the Capitol, our team will give your issue the edge needed to deliver results.</p>
-        <a class="button" href="">Meet Our Team</a>
+        <a class="button button-secondary" href="">Meet Our Team</a>
     </div>
 </div>
 
@@ -36,23 +36,23 @@
 
 <!-- AREAS OF PRACTICE -->
 <div class="section contained-section bg-primary faded">
-    <div class="container">
+    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
       <h2 class="heading-main u-color-black">Influence for Lasting Change</h2>
       <div class="services">
-        <div class="service">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
           <div class="service__title h4">Lobbying</div>
         </div><!--/.service-->
-        <div class="service">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
           <div class="service__title h4">Government Affairs</div>
         </div><!--/.service-->
-        <div class="service">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
           <div class="service__title h4">Procurement</div>
         </div><!--/.service-->
-        <div class="service">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
           <div class="service__title h4">Business Development</div>
         </div><!--/.service-->
@@ -66,14 +66,14 @@
 
 <!-- BY THE NUMBERS -->
 <div class="section contained-section bg-primary">
-    <div class="container">
+    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <h5 class="heading-sub u-color-white">Our Experience</h5>
       <h2 class="heading-main u-color-white">By the Numbers</h2>
     </div><!--/.container-->
     <div class="numbers__wrapper">
-      <div class="numbers__col numbers__col-image"></div>
+      <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="numbers__col numbers__col-image"></div>
       <div class="numbers__col numbers__col-stats">
-      <div class="container">
+      <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="container">
         <div class="numbers__stat h2">50+</div>
         <div class="numbers__stat-text">Years of Experience</div>
         <div class="numbers__stat h2">2 States</div>
@@ -88,24 +88,24 @@
 
 
 <!-- TESTIMONIALS -->
-<div class="section testimonials contained-section bg-primary faded">
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section testimonials contained-section bg-primary faded">
     <div class="container container-narrow">
       <h5 class="heading-sub u-color-black">Relationships. Respect. Results.</h5>
       <h3 class="heading-main u-color-black">We lead the way for clients who are key players in their fields.</h3>
     </div><!--/.container-narrow-->
-    <div class="container">
+    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <div class="services">
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-auto.png">
         </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-uber.png">
         </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+          <img class="service__icon service__icon--smaller" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-rays.png">
         </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
+        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-fhsaa.png">
         </div><!--/.service-->
       </div><!--/.services-->
       <div class="testimonials__wrapper">
@@ -137,52 +137,11 @@
 
 
 
-
-<div class="section contained-section contained-section-large bg-tertiary">
-    <div class="container">
-        <h5 class="services-heading">Areas where we assist</h5>
-        <div class="w-dyn-list">
-            <div class="w-dyn-items">
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
-                    <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/brand-marketing" class="underline-link underline-link-white w-inline-block">
-                        <div class="display-3 service-link-heading">Brand Marketing</div>
-                        <div class="underline-container">
-                            <div class="underline-track underline-track-white"></div>
-                            <div class="underline-progress underline-progress-white"></div>
-                        </div>
-                    </a>
-                </div>
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
-                    <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/employee-engagement" class="underline-link underline-link-white w-inline-block">
-                        <div class="display-3 service-link-heading">Employee Engagement</div>
-                        <div class="underline-container">
-                            <div class="underline-track underline-track-white"></div>
-                            <div class="underline-progress underline-progress-white"></div>
-                        </div>
-                    </a>
-                </div>
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
-                    <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/influencer" class="underline-link underline-link-white w-inline-block">
-                        <div class="display-3 service-link-heading">Influencer</div>
-                        <div class="underline-container">
-                            <div class="underline-track underline-track-white"></div>
-                            <div class="underline-progress underline-progress-white"></div>
-                        </div>
-                    </a>
-                </div>
-                <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="services-list-item w-dyn-item">
-                    <a data-w-id="77549b59-a675-6031-e461-e93208aba3ce" href="/service/social-media" class="underline-link underline-link-white w-inline-block">
-                        <div class="display-3 service-link-heading">Social Media</div>
-                        <div class="underline-container">
-                            <div class="underline-track underline-track-white"></div>
-                            <div class="underline-progress underline-progress-white"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<!-- CASE STUDY -->
+<div class="section bg-primary">
+  <div class="container">  
+  </div><!--/.container-->
+</div><!--/.section-->
 
 
 

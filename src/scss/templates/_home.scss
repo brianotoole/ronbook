@@ -2,6 +2,11 @@
   Home
 *********************************************************/
 
+/* Intro */
+.intro p + p {
+  margin-bottom: 45px;
+}
+
 /* By the Numbers */
 .numbers__wrapper {
   display: flex;
@@ -40,11 +45,20 @@
 }
 
 .testimonials .heading-sub {
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 .testimonials .services {
   margin-bottom: 100px;
+}
+
+.testimonials .services .service__icon {
+  width: auto;
+  height: 100px;
+  &--smaller {
+    height: 75px;
+    margin-top: 20px;
+  }
 }
 
 .testimonial-slider {
@@ -70,3 +84,6 @@
     text-transform: uppercase;
   }
 }
+
+
+/* Case Study */

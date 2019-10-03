@@ -3895,22 +3895,22 @@ textarea {
   Button
 *********************************************************/
 .button {
-  padding: 15px 30px;
-  border-radius: 4px;
-  background-color: #344e41;
-  -webkit-transition: opacity 200ms ease;
-  transition: opacity 200ms ease;
+  padding: 15px 45px;
+  border-radius: 30px;
+  background-color: #014F39;
   color: #fff;
-  font-weight: 500; }
-
-.button:hover {
-  opacity: 0.8; }
-
-.button.style-guide-button {
-  margin-right: 30px; }
+  font-weight: 500;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease; }
+  .button:hover {
+    background-color: #012c20;
+    color: #fff; }
 
 .button.button-secondary {
-  background-color: #c0aa81; }
+  background-color: #A29062; }
+  .button.button-secondary:hover {
+    background-color: #8d7d53;
+    color: #fff; }
 
 .button.button-round {
   border-radius: 200px; }
@@ -4277,29 +4277,33 @@ textarea {
   display: flex;
   padding-bottom: 15px;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+      -ms-flex-align: center;
+          align-items: center; }
 
 .navigation-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 30px;
-  margin-bottom: 0px;
-  padding-left: 0px;
+  margin-bottom: 0;
+  padding-left: 0;
   -webkit-box-ordinal-group: 0;
-  -ms-flex-order: -1;
-  order: -1; }
+      -ms-flex-order: -1;
+          order: -1; }
 
 .navigation-menu-item {
+  font-size: 18px;
   margin-right: 15px;
   margin-left: 15px;
-  opacity: 0.5;
+  opacity: 0.8;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease; }
+  .navigation-menu-item:hover {
+    opacity: 1;
+    color: #fff; }
 
 .navigation-menu-item:hover {
   opacity: 1; }
@@ -4430,8 +4434,8 @@ textarea {
   text-align: center; }
 
 .section.contained-section {
-  padding-top: 90px;
-  padding-bottom: 90px; }
+  padding-top: 180px;
+  padding-bottom: 180px; }
 
 .section.contained-section.bg-primary.faded {
   color: #014F39; }
@@ -4659,12 +4663,21 @@ textarea {
   padding: 60px 30px 30px;
   text-align: center;
   -webkit-box-shadow: 0 0 20px rgba(34, 34, 34, 0.1);
-          box-shadow: 0 0 20px rgba(34, 34, 34, 0.1); }
+          box-shadow: 0 0 20px rgba(34, 34, 34, 0.1);
+  -webkit-transition: -webkit-transform 0.2s, -webkit-box-shadow 0.15s linear;
+  transition: -webkit-transform 0.2s, -webkit-box-shadow 0.15s linear;
+  transition: transform 0.2s, box-shadow 0.15s linear;
+  transition: transform 0.2s, box-shadow 0.15s linear, -webkit-transform 0.2s, -webkit-box-shadow 0.15s linear; }
   @media (min-width: 768px) {
     .service {
       -ms-flex-preferred-size: calc(25% - 30px);
           flex-basis: calc(25% - 30px);
       margin: 15px; } }
+  .service:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-box-shadow: 0 0 25px rgba(34, 34, 34, 0.25);
+            box-shadow: 0 0 25px rgba(34, 34, 34, 0.25); }
 
 .service__icon {
   width: 100%;
@@ -4681,6 +4694,10 @@ textarea {
 /*********************************************************
   Home
 *********************************************************/
+/* Intro */
+.intro p + p {
+  margin-bottom: 45px; }
+
 /* By the Numbers */
 .numbers__wrapper {
   display: -webkit-box;
@@ -4717,10 +4734,17 @@ textarea {
   text-align: center; }
 
 .testimonials .heading-sub {
-  margin-bottom: 30px; }
+  margin-bottom: 45px; }
 
 .testimonials .services {
   margin-bottom: 100px; }
+
+.testimonials .services .service__icon {
+  width: auto;
+  height: 100px; }
+  .testimonials .services .service__icon--smaller {
+    height: 75px;
+    margin-top: 20px; }
 
 .testimonial-slider {
   height: auto;
@@ -4741,6 +4765,7 @@ textarea {
     color: #222;
     text-transform: uppercase; }
 
+/* Case Study */
 /*********************************************************
   Utility / Helper Classes
   @NOTE: prefix with ".u-"
