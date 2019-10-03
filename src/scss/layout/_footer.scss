@@ -4,8 +4,14 @@
 
 .footer {
   background-color: #1d2b24;
-  color: #fff;
+  color: $color__white;
 }
+
+.footer a {
+  color: $color__white;
+}
+
+
 
 .footer-lower {
   padding-top: 55px;

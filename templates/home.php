@@ -161,66 +161,44 @@
 
 
 
-<div class="section contained-section contained-section-large">
+<div class="section news">
     <div class="container">
-        <h2 class="section-title">Recent News</h2>
-        <div class="w-dyn-list">
-            <div class="row blog-row w-dyn-items">
-                <div data-w-id="8cc310a2-7869-7c22-5e73-c03db162a658" class="column blog-post-column w-dyn-item">
-                    <a href="/post/our-client-collaboration-process-in-detail" class="blog-grid-image-holder w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45cbf8436b94a_blog-article-1.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45cbf8436b94a_blog-article-1-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45cbf8436b94a_blog-article-1.jpg 1200w" /></a>
-                    <div class="boxed boxed-large">
-                        <div class="blog-meta">
-                            <a href="/blog-category/business" class="badge blog-meta-badge w-inline-block">
-                                <div>Business</div>
-                            </a>
-                            <div class="text-small text-spacer">Oct</div>
-                            <div class="text-small text-spacer">2</div>
-                        </div><a href="/post/our-client-collaboration-process-in-detail" class="w-inline-block"><h3 class="blog-post-snippet-heading">Our client collaboration process in detail</h3></a>
-                        <div class="author-container"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c24d836b919_avatar-female-1.jpg" alt="" class="avatar author-avatar" />
-                            <div class="text-small text-spacer">by</div>
-                            <div class="text-small text-spacer">Annabelle Porter</div>
-                        </div>
-                    </div>
-                </div>
-                <div data-w-id="8cc310a2-7869-7c22-5e73-c03db162a658" class="column blog-post-column w-dyn-item">
-                    <a href="/post/navigating-the-complexity-of-change-aversion" class="blog-grid-image-holder w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c340a36b94b_blog-article-4.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c340a36b94b_blog-article-4-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c340a36b94b_blog-article-4.jpg 1200w" /></a>
-                    <div class="boxed boxed-large">
-                        <div class="blog-meta">
-                            <a href="/blog-category/opinion" class="badge blog-meta-badge w-inline-block">
-                                <div>Opinion</div>
-                            </a>
-                            <div class="text-small text-spacer">Oct</div>
-                            <div class="text-small text-spacer">2</div>
-                        </div><a href="/post/navigating-the-complexity-of-change-aversion" class="w-inline-block"><h3 class="blog-post-snippet-heading">Navigating the complexity of change aversion</h3></a>
-                        <div class="author-container"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c5dc736b8cd/5d93b1aa23f45c523e36b8d8_avatar-male-1.jpg" alt="" class="avatar author-avatar" />
-                            <div class="text-small text-spacer">by</div>
-                            <div class="text-small text-spacer">Derek Ritter</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
+        <h2 class="section-title">In the News</h2>
+        <div class="news__list">
+          <div class="news__item">
+            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
+            <div class="news__ribbon">Press Release</div>
+          </div><!--/.news__item-->
+          <div class="news__item">
+            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
+            <div class="news__ribbon">Press Release</div>
+          </div><!--/.news__item-->
+          <div class="news__item">
+            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
+            <div class="news__ribbon">Press Release</div>
+          </div><!--/.news__item-->
+        </div><!--/.news__list-->
+        <div class="news__link-wrapper">
             <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="underline-link w-inline-block">
-                <div>Visit the Blog</div>
+                <div>See More News</div>
                 <div class="underline-container">
                     <div class="underline-track"></div>
                     <div class="underline-progress"></div>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
+                </div><!--/.underline-contatiner-->
+            </a><!--/.news__link-->
+        </div><!--/.text-right-->
+    </div><!--/.container-->
+</div><!--/.section-->
 
 
 
 <div class="section cta bg-primary overflow-hidden">
-    <div class="container">
-        <h2 class="cta-heading">Let's Work Together</h3>
-        <a href="/contact" class="button button-secondary">Get In Touch</a>
-    </div>
-    <div data-w-id="e243cfb7-fd9e-8a1d-fc6f-e14c8cd05fe7" class="decoration ring cta-ring"></div>
-</div>
+  <div class="container">
+    <h2 class="cta">Let's Work Together</h3>
+    <a href="/contact" class="button button-secondary">Get In Touch</a>
+  </div><!--/.container-->
+  <div data-w-id="e243cfb7-fd9e-8a1d-fc6f-e14c8cd05fe7" class="decoration ring cta-ring"></div>
+</div><!--/.section-->
 
 
 

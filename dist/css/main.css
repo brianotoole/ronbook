@@ -585,10 +585,10 @@ h2, .h2 {
       font-size: 3.375rem; } }
 
 h3, .h3 {
-  font-size: 1.625rem; }
+  font-size: 1.5rem; }
   @media (min-width: 768px) {
     h3, .h3 {
-      font-size: 2.5rem; } }
+      font-size: 2.375rem; } }
 
 h4, .h4, .testimonial-text {
   font-size: 1.1875rem;
@@ -614,7 +614,7 @@ h6, .h6 {
     h6, .h6 {
       font-size: 1rem; } }
 
-.heading-sub, .feat-case-study__ribbon {
+.heading-sub, .feat-case-study__ribbon, .news__ribbon {
   font-family: Cabin, sans-serif;
   text-transform: uppercase;
   margin-bottom: 7.5px; }
@@ -4568,6 +4568,9 @@ textarea {
   background-color: #1d2b24;
   color: #fff; }
 
+.footer a {
+  color: #fff; }
+
 .footer-lower {
   padding-top: 55px;
   padding-bottom: 55px;
@@ -4734,7 +4737,7 @@ textarea {
 .testimonials {
   text-align: center; }
 
-.testimonials .heading-sub, .testimonials .feat-case-study__ribbon {
+.testimonials .heading-sub, .testimonials .feat-case-study__ribbon, .testimonials .news__ribbon {
   margin-bottom: 45px; }
 
 .testimonials .services {
@@ -4817,9 +4820,39 @@ textarea {
 .feat-case-study__link {
   color: #fff; }
 
+/* News */
+.news .section-title {
+  text-align: center; }
+
+.news__list {
+  display: block; }
+
+.news__item {
+  margin-bottom: 45px;
+  padding-top: 45px;
+  border-bottom: 1px solid #999999; }
+
+.news__title {
+  margin-bottom: 15px; }
+
+.news__ribbon {
+  display: inline-block;
+  margin-bottom: 45px;
+  padding: 5px 20px;
+  -webkit-box-shadow: 0 0 20px rgba(34, 34, 34, 0.01);
+          box-shadow: 0 0 20px rgba(34, 34, 34, 0.01);
+  background: #EEEEEE; }
+
+.news__link-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
 /* CTA */
 .cta {
-  margin: 0 auto;
   text-align: center; }
 
 .cta-heading {
