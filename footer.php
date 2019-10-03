@@ -101,7 +101,7 @@
             <div class="row text-small info-bar-row">
                 <div class="column footer-details-column">
                     <div>© Copyright 2019 | Ronald L. Book, P.A.</div>
-                    <div>Website design by <a href="https://brickandmonitor.com" target="_blank">Brick & Monitor</a>.</div>
+                    <div> Website design by <a href="https://brickandmonitor.com" target="_blank">Brick & Monitor</a>.</div>
                 </div>
                 <div class="column">
                     <ul class="social-links-list w-list-unstyled">

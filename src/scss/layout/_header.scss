@@ -28,7 +28,7 @@
 .navigation-menu {
   display: flex;
   margin-right: 30px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   padding-left: 0;
   order: -1;
 }
@@ -145,19 +145,16 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #1d2b24;
-  color: #fff;
+  background-color: $color__primary;
+  color: $color__white;
 }
 
 .search-form {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .search-form.modal-search-form {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .modal-cross {

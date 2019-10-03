@@ -3908,6 +3908,7 @@ textarea {
   padding: 15px 45px;
   border-radius: 30px;
   background-color: #014F39;
+  border: none;
   color: #fff;
   font-weight: 500;
   -webkit-transition: background 0.2s ease;
@@ -3921,6 +3922,16 @@ textarea {
   .button.button-secondary:hover {
     background-color: #8d7d53;
     color: #fff; }
+
+.button.button-transparent {
+  background-color: transparent;
+  border: 1px solid #fff; }
+  .button.button-transparent:hover {
+    background-color: #012c20;
+    color: #fff; }
+
+.button-navigation {
+  padding: 5px 50px; }
 
 .button.button-round {
   border-radius: 200px; }
@@ -3992,7 +4003,7 @@ textarea {
 .underline-link.style-guide-underline-link {
   margin-right: 30px; }
 
-.underline-link.underline-link-white {
+.underline-link-white {
   color: #fff; }
 
 .underline-link.text-spacer {
@@ -4299,7 +4310,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   margin-right: 30px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   padding-left: 0;
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
@@ -4398,7 +4409,7 @@ textarea {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #1d2b24;
+  background-color: #014F39;
   color: #fff; }
 
 .search-form {
@@ -4407,7 +4418,7 @@ textarea {
   display: flex; }
 
 .search-form.modal-search-form {
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
 
 .modal-cross {
   position: absolute;
@@ -4855,6 +4866,8 @@ textarea {
 
 .feat-case-study__link {
   color: #fff; }
+  .feat-case-study__link > div:hover {
+    color: #fff; }
 
 /* News */
 .news .section-title {
@@ -4867,7 +4880,7 @@ textarea {
 .news__item {
   margin-bottom: 45px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #999999; }
+  border-bottom: 1px solid #EEEEEE; }
   .news__item:last-child {
     border-bottom: none; }
 

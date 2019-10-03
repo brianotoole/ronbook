@@ -146,7 +146,7 @@
 
 
 <!-- CASE STUDY -->
-<div class="feat-case-study bg-primary">
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="feat-case-study bg-primary">
   <div class="feat-case-study__col feat-case-study__col--image">  
   </div><!--/.feat-case-study__col-->
   <div class="feat-case-study__col">  
@@ -158,8 +158,8 @@
         <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="#" class="feat-case-study__link underline-link w-inline-block">
           <div>View Project</div>
             <div class="underline-container">
-              <div class="underline-track"></div>
-              <div class="underline-progress"></div>
+              <div class="underline-track underline-track-white"></div>
+              <div class="underline-progress underline-progress-white"></div>
           </div>
         </a>
       </div><!--/.container-->
@@ -169,7 +169,7 @@
 
 
 
-<div class="section news">
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section news">
     <div class="container">
         <h2 class="section-title">In the News</h2>
         <div class="heading-underline"></div>

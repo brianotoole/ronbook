@@ -23,7 +23,7 @@
             <a href="/" class="w-inline-block w--current">
                 <img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c601a36b8e3_logo-white.svg" alt="" /></a>
             <div class="navigation-items">
-                <a href="/contact" class="button navigation-button w-inline-block">
+                <a href="/contact" class="button button-transparent button-navigation w-inline-block">
                     <div>Contact</div>
                 </a>
                 <div class="navigation-additional-controls white"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7cb836b8ea_icon-search-white.svg" alt="" class="navigation-control search-toggle" /><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cd3f536b8e9_icon-menu-white.svg" alt="" class="navigation-control mobile-toggle" /></div>
@@ -53,10 +53,10 @@
 
     <div class="search-modal">
         <div>
-            <h3>Search the site</h3>
-            <form action="/search" class="search-form modal-search-form w-form">
-                <input type="search" class="form-input form-input-white search-form-input w-input" autofocus="true" maxlength="256" name="query" placeholder="Enter keywords" id="search" required="" />
-                <input type="submit" value="Search" class="button w-button" />
+            <h3>Search:</h3>
+            <form action="" class="search-form modal-search-form w-form">
+                <input type="search" class="form-input form-input-white search-form-input w-input" autofocus="true" maxlength="256" name="s" placeholder="Enter keywords..." id="s" required="" />
+                <input type="submit" value="Search" class="button button-secondary" />
             </form>
         </div>
         <img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c1e0036b8ff_icon-cross.svg" data-w-id="e09a2430-14a2-de53-4221-16ee7e7c989c" alt="" class="modal-cross" />

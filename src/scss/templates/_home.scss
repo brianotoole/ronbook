@@ -142,6 +142,11 @@
 
 .feat-case-study__link {
   color: $color__white;
+  > div {
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 /* News */
@@ -157,7 +162,7 @@
 .news__item {
   margin-bottom: 45px;
   padding-bottom: 10px;
-  border-bottom: 1px solid $color__border--dark;
+  border-bottom: 1px solid $color__border;
   &:last-child {
     border-bottom: none;
   }
