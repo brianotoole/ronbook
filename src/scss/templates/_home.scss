@@ -86,4 +86,48 @@
 }
 
 
-/* Case Study */
+/* Featured Case Study */
+
+.feat-case-study {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feat-case-study__col {
+  height: calc(600px / 2);
+  flex-basis: 100%;
+  flex-grow: 1;
+  &--image {
+    background-image: url("../img/casestudy-fhsaa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  @media (min-width: $tablet) {
+    height: 600px;
+    flex-basis: 50%;
+  }
+}
+
+.feat-case-study__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.feat-case-study__content .container > * {
+  margin-bottom: 20px;
+}
+
+.feat-case-study__ribbon {
+  @extend .heading-sub;
+  display: inline-block;
+  padding: 10px 20px;
+  background: lighten($color__primary, 1);
+  box-shadow: 0 0 20px rgba($color__black, 0.05);
+}
+
+.feat-case-study__link {
+  color: $color__white;
+}

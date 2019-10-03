@@ -614,7 +614,7 @@ h6, .h6 {
     h6, .h6 {
       font-size: 1rem; } }
 
-.heading-sub {
+.heading-sub, .feat-case-study__ribbon {
   font-family: Cabin, sans-serif;
   text-transform: uppercase;
   margin-bottom: 7.5px; }
@@ -4733,7 +4733,7 @@ textarea {
 .testimonials {
   text-align: center; }
 
-.testimonials .heading-sub {
+.testimonials .heading-sub, .testimonials .feat-case-study__ribbon {
   margin-bottom: 45px; }
 
 .testimonials .services {
@@ -4765,7 +4765,57 @@ textarea {
     color: #222;
     text-transform: uppercase; }
 
-/* Case Study */
+/* Featured Case Study */
+.feat-case-study {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.feat-case-study__col {
+  height: calc(600px / 2);
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+  .feat-case-study__col--image {
+    background-image: url(../../dist/img/casestudy-fhsaa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  @media (min-width: 768px) {
+    .feat-case-study__col {
+      height: 600px;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+.feat-case-study__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%; }
+
+.feat-case-study__content .container > * {
+  margin-bottom: 20px; }
+
+.feat-case-study__ribbon {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #01543d;
+  -webkit-box-shadow: 0 0 20px rgba(34, 34, 34, 0.05);
+          box-shadow: 0 0 20px rgba(34, 34, 34, 0.05); }
+
+.feat-case-study__link {
+  color: #fff; }
+
 /*********************************************************
   Utility / Helper Classes
   @NOTE: prefix with ".u-"

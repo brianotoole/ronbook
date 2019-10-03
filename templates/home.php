@@ -40,19 +40,19 @@
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
       <h2 class="heading-main u-color-black">Influence for Lasting Change</h2>
       <div class="services">
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
           <div class="service__title h4">Lobbying</div>
         </div><!--/.service-->
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
           <div class="service__title h4">Government Affairs</div>
         </div><!--/.service-->
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
           <div class="service__title h4">Procurement</div>
         </div><!--/.service-->
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
           <div class="service__title h4">Business Development</div>
         </div><!--/.service-->
@@ -95,16 +95,16 @@
     </div><!--/.container-narrow-->
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <div class="services">
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-auto.png">
         </div><!--/.service-->
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-uber.png">
         </div><!--/.service-->
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon service__icon--smaller" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-rays.png">
         </div><!--/.service-->
-        <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="service">
+        <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-fhsaa.png">
         </div><!--/.service-->
       </div><!--/.services-->
@@ -138,9 +138,25 @@
 
 
 <!-- CASE STUDY -->
-<div class="section bg-primary">
-  <div class="container">  
-  </div><!--/.container-->
+<div class="feat-case-study bg-primary">
+  <div class="feat-case-study__col feat-case-study__col--image">  
+  </div><!--/.feat-case-study__col-->
+  <div class="feat-case-study__col">  
+    <div class="feat-case-study__content">
+      <div class="container container-narrow">
+        <h5 class="feat-case-study__ribbon">Featured Case Study</h5>
+        <h2 class="feat-case-study__title">Florida High School Athletic Association</h2>
+        <p class="feat-case-study__description">loremfjkdsj fklasdjfkadsjflkasdj fklsadjklgsdjagkjasgklsdajgklasdjgk</p>
+        <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="#" class="feat-case-study__link underline-link w-inline-block">
+          <div>View Project</div>
+            <div class="underline-container">
+              <div class="underline-track"></div>
+              <div class="underline-progress"></div>
+          </div>
+        </a>
+      </div><!--/.container-->
+    </div><!--/.feat-case-study__content-->
+  </div><!--/.feat-case-study__col-->
 </div><!--/.section-->
 
 
