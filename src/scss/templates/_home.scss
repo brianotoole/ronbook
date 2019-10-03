@@ -7,6 +7,7 @@
   margin-bottom: 45px;
 }
 
+
 /* By the Numbers */
 .numbers__wrapper {
   display: flex;
@@ -145,6 +146,7 @@
 
 /* News */
 .news .section-title {
+  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -154,8 +156,11 @@
 
 .news__item {
   margin-bottom: 45px;
-  padding-top: 45px;
+  padding-bottom: 10px;
   border-bottom: 1px solid $color__border--dark;
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .news__title {

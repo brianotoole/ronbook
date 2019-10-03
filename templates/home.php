@@ -26,6 +26,8 @@
 <div id="First-Section" class="section intro first-section text-center">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container container-narrow">
         <h2>Unmatched Experience. Backed by Trust.</h2>
+        <div class="heading-underline"></div>
+        <div class="heading-underline"></div>
         <p>Ronald L. Book, P.A. specializes in all aspects of governmental and public affairs, including <strong>government, state, local</strong> and <strong>federal</strong>.</p>
         <p>Whether it is a complex problem involving multiple branches of government, strickly a legislative matter, or issue advocacy beyond the halls of the Capitol, our team will give your issue the edge needed to deliver results.</p>
         <a class="button button-secondary" href="">Meet Our Team</a>
@@ -57,7 +59,13 @@
           <div class="service__title h4">Business Development</div>
         </div><!--/.service-->
       </div><!--/.services-->
-      <a data-w-id="" href="/about" class="service__link underline-link w-inline-block"><div>Learn More</div><div class="underline-container"><div class="underline-track"></div><div style="width: 0%;" class="underline-progress"></div></div></a>
+      <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+                <div>See More News</div>
+                <div class="underline-container">
+                    <div class="underline-track"></div>
+                    <div class="underline-progress"></div>
+                </div><!--/.underline-contatiner-->
+            </a><!--/.news__link-->
     </div><!--/.container-->
     <div data-w-id="eb932dbb-19c7-a38e-6f4a-e8d79560b11f" class="decoration ring testimonials-ring"></div>
 </div><!--/.section-->
@@ -164,6 +172,8 @@
 <div class="section news">
     <div class="container">
         <h2 class="section-title">In the News</h2>
+        <div class="heading-underline"></div>
+        <div class="heading-underline"></div>
         <div class="news__list">
           <div class="news__item">
             <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>

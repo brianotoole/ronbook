@@ -93,10 +93,11 @@
 /* Underline Link Btn */
 .underline-link {
   font-weight: 500;
+  font-size: rem(20);
 }
 
 .underline-link.underline-link-secondary {
-  color: #c0aa81;
+  color: $color__secondary;
 }
 
 .underline-link.underline-link-secondary.footer-phone {
@@ -130,12 +131,12 @@
   top: 0px;
   width: 0%;
   height: 2px;
-  background-color: #344e41;
+  background-color: $color__primary;
   opacity: 1;
 }
 
 .underline-progress.underline-progress-secondary {
-  background-color: #c0aa81;
+  background-color: $color__secondary;
 }
 
 .underline-progress.underline-progress-white {
@@ -146,12 +147,12 @@
 .underline-track {
   width: 100%;
   height: 2px;
-  background-color: #344e41;
+  background-color: $color__primary;
   opacity: 0.1;
 }
 
 .underline-track.underline-track-secondary {
-  background-color: #c0aa81;
+  background-color: $color__secondary;
 }
 
 .underline-track.underline-track-white {
