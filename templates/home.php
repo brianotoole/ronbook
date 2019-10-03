@@ -144,7 +144,7 @@
   <div class="feat-case-study__col">  
     <div class="feat-case-study__content">
       <div class="container container-narrow">
-        <h5 class="feat-case-study__ribbon">Featured Case Study</h5>
+        <h6 class="feat-case-study__ribbon">Featured Case Study</h6>
         <h2 class="feat-case-study__title">Florida High School Athletic Association</h2>
         <p class="feat-case-study__description">loremfjkdsj fklasdjfkadsjflkasdj fklsadjklgsdjagkjasgklsdajgklasdjgk</p>
         <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="#" class="feat-case-study__link underline-link w-inline-block">

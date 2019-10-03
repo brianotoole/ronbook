@@ -4,9 +4,13 @@
 
 .section {
   position: relative;
-  padding-top: 180px;
-  padding-bottom: 180px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: $color__white;
+  @media (min-width: $tablet) {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
 }
 
 .section.style-guide-section {
@@ -14,7 +18,10 @@
 }
 
 .section.first-section {
-  padding-top: 180px;
+  padding-top: 90px;
+  @media (min-width: $tablet) {
+    padding-top: 180px;
+  }
 }
 
 .section.first-section.text-center {
@@ -22,8 +29,12 @@
 }
 
 .section.contained-section {
-  padding-top: 180px;
-  padding-bottom: 180px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  @media (min-width: $tablet) {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
 }
 
 .section.contained-section.bg-primary.faded {
@@ -35,8 +46,12 @@
 }
 
 .section.contained-section.contained-section-large {
-  padding-top: 180px;
-  padding-bottom: 180px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  @media (min-width: $tablet) {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
 }
 
 .section.contained-section.contained-section-large.bg-primary {
@@ -70,9 +85,6 @@
 }
 
 .section.block-section {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   padding-bottom: 0px;
 }

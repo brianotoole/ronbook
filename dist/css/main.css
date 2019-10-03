@@ -4421,22 +4421,33 @@ textarea {
 *********************************************************/
 .section {
   position: relative;
-  padding-top: 180px;
-  padding-bottom: 180px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #fff; }
+  @media (min-width: 768px) {
+    .section {
+      padding-top: 180px;
+      padding-bottom: 180px; } }
 
 .section.style-guide-section {
   padding-bottom: 90px; }
 
 .section.first-section {
-  padding-top: 180px; }
+  padding-top: 90px; }
+  @media (min-width: 768px) {
+    .section.first-section {
+      padding-top: 180px; } }
 
 .section.first-section.text-center {
   text-align: center; }
 
 .section.contained-section {
-  padding-top: 180px;
-  padding-bottom: 180px; }
+  padding-top: 90px;
+  padding-bottom: 90px; }
+  @media (min-width: 768px) {
+    .section.contained-section {
+      padding-top: 180px;
+      padding-bottom: 180px; } }
 
 .section.contained-section.bg-primary.faded {
   color: #014F39; }
@@ -4445,8 +4456,12 @@ textarea {
   overflow: hidden; }
 
 .section.contained-section.contained-section-large {
-  padding-top: 180px;
-  padding-bottom: 180px; }
+  padding-top: 90px;
+  padding-bottom: 90px; }
+  @media (min-width: 768px) {
+    .section.contained-section.contained-section-large {
+      padding-top: 180px;
+      padding-bottom: 180px; } }
 
 .section.contained-section.contained-section-large.bg-primary {
   overflow: hidden; }
@@ -4724,6 +4739,9 @@ textarea {
   background-image: url(../../dist/img/home-numbers.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
+  @media (max-width: 768px) {
+    .numbers__col-image {
+      display: none; } }
 
 .numbers__stat {
   margin-bottom: 7.5px; }
@@ -4778,17 +4796,22 @@ textarea {
       flex-wrap: wrap; }
 
 .feat-case-study__col {
-  height: calc(600px / 2);
+  height: auto;
+  padding: 60px 0;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1; }
   .feat-case-study__col--image {
+    height: calc(600px / 2);
     background-image: url(../../dist/img/casestudy-fhsaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
+    @media (min-width: 768px) {
+      .feat-case-study__col--image {
+        height: 600px; } }
   @media (min-width: 768px) {
     .feat-case-study__col {
       height: 600px;
@@ -4808,7 +4831,9 @@ textarea {
   height: 100%; }
 
 .feat-case-study__content .container > * {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
+  .feat-case-study__content .container > *:last-child {
+    margin-bottom: 0; }
 
 .feat-case-study__ribbon {
   display: inline-block;
@@ -4838,7 +4863,7 @@ textarea {
 .news__ribbon {
   display: inline-block;
   margin-bottom: 45px;
-  padding: 5px 20px;
+  padding: 4px 20px;
   -webkit-box-shadow: 0 0 20px rgba(34, 34, 34, 0.01);
           box-shadow: 0 0 20px rgba(34, 34, 34, 0.01);
   background: #EEEEEE; }

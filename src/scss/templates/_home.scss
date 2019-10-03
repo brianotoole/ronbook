@@ -27,6 +27,9 @@
   background-image: url("../img/home-numbers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  @media (max-width: $tablet) {
+    display: none;
+  }
 }
 
 .numbers__stat {
@@ -94,14 +97,19 @@
 }
 
 .feat-case-study__col {
-  height: calc(600px / 2);
+  height: auto;
+  padding: 60px 0;
   flex-basis: 100%;
   flex-grow: 1;
   &--image {
+    height: calc(600px / 2);
     background-image: url("../img/casestudy-fhsaa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    @media (min-width: $tablet) {
+      height: 600px;
+    }
   }
   @media (min-width: $tablet) {
     height: 600px;
@@ -117,7 +125,10 @@
 }
 
 .feat-case-study__content .container > * {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .feat-case-study__ribbon {
@@ -155,7 +166,7 @@
   @extend .heading-sub;
   display: inline-block;
   margin-bottom: 45px;
-  padding: 5px 20px;
+  padding: 4px 20px;
   box-shadow: 0 0 20px rgba($color__black, 0.01);
   background: $color__border;
 }
