@@ -1,11 +1,12 @@
 var ExtractText = require('extract-text-webpack-plugin');
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 var config = {
   entry: ['./src/js/main.js', './src/scss/main.scss'],
   output: {
     filename: 'js/[name].js',
-    publicPath: '../../'
+    publicPath: '../../dist/'
   },
   module: {
 
@@ -26,11 +27,11 @@ var config = {
       },
       { // URL LOADER, IMAGE FILES
         test: /\.(jpe?g|png)/,
-        loader: 'url-loader?limit=10000&name=dist/img/[name].[ext]', //if < 10 kb, base64 encode img to css
+        loader: 'url-loader?limit=10000&name=img/[name].[ext]', //if < 10 kb, base64 encode img to css
       },
       { // URL LOADER, FONT FILES
         test: /\.(woff|woff2|eot|ttf|svg)/,
-        loader: 'url-loader?limit=10000&name=dist/fonts/[name].[ext]', //font files to './dist/fonts/**.'
+        loader: 'url-loader?limit=10000&name=fonts/[name].[ext]', //font files to './dist/fonts/**.'
       },
     ]
   },
