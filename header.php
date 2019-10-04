@@ -23,7 +23,7 @@
             <a href="/" class="w-inline-block w--current">
                 <img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c601a36b8e3_logo-white.svg" alt="" /></a>
             <div class="navigation-items">
-                <a href="/contact" class="button button-transparent button-navigation w-inline-block">
+                <a href="/contact" class="button button-transparent button-navigation u-visible-tablet w-inline-block">
                     <div>Contact</div>
                 </a>
                 <div class="navigation-additional-controls white"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7cb836b8ea_icon-search-white.svg" alt="" class="navigation-control search-toggle" /><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cd3f536b8e9_icon-menu-white.svg" alt="" class="navigation-control mobile-toggle" /></div>
