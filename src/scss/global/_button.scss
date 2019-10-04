@@ -29,8 +29,9 @@
   background-color: transparent;
   border: 1px solid $color__white;
   &:hover {
-    background-color: $color__primary--dark;
-    color: $color__white;
+    background-color: $color__white;
+    color: $color__primary;
+    border-color: $color__white;
   }
 }
 

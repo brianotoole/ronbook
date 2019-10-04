@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact */ ?>
+<?php /* Template Name: Testimonials */ ?>
 
 
 <?php get_header(); ?>
@@ -7,12 +7,12 @@
 <!-- HERO -->
 <div class="hero-section">
     <div class="bg-image-container">
-        <div class="bg-image contact-hero"></div>
+        <div class="bg-image testimonials-hero"></div>
     </div>
     <div class="hero-container">
         <div class="hero-content-container">
-            <h1 class="hero-heading">Insightful Experience</h1>
-            <h4 class="hero-subtitle">Our diverse team continues to lead the way in governmental affairs and lobbying services.</h4>
+            <h1 class="hero-heading">Clients & Testimonials</h1>
+            <h4 class="hero-subtitle">We work with some of the world's most innovative companies. We're who you call to get something done.</h4>
         </div>
     </div>
     <div class="container">

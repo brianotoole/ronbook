@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact */ ?>
+<?php /* Template Name: Team */ ?>
 
 
 <?php get_header(); ?>
@@ -7,7 +7,7 @@
 <!-- HERO -->
 <div class="hero-section">
     <div class="bg-image-container">
-        <div class="bg-image contact-hero"></div>
+        <div class="bg-image team-hero"></div>
     </div>
     <div class="hero-container">
         <div class="hero-content-container">

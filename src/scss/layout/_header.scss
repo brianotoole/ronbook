@@ -7,14 +7,17 @@
   z-index: 3;
   padding-top: 15px;
   padding-bottom: 0px;
-  border-bottom: 1px solid rgba(52, 78, 65, 0.1);
+  background: rgba($color__black, 0.05);
+  transition: background 0.3s linear;
+  &:hover {
+    background: rgba($color__black, 0.15);
+  }
 }
 
 .navigation-bar.navigation-bar-overlay {
   position: absolute;
   z-index: 2;
   width: 100vw;
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   color: #fff;
 }
 

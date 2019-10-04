@@ -23,13 +23,13 @@
             <a href="/" class="w-inline-block w--current">
                 <img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c601a36b8e3_logo-white.svg" alt="" /></a>
             <div class="navigation-items">
-                <a href="/contact" class="button button-transparent button-navigation u-visible-tablet w-inline-block">
+                <a href="<?php echo home_url(); ?>/contact" class="button button-transparent button-navigation u-visible-tablet w-inline-block">
                     <div>Contact</div>
                 </a>
                 <div class="navigation-additional-controls white"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7cb836b8ea_icon-search-white.svg" alt="" class="navigation-control search-toggle" /><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cd3f536b8e9_icon-menu-white.svg" alt="" class="navigation-control mobile-toggle" /></div>
                 <ul class="navigation-menu w-list-unstyled">
-                    <li class="navigation-menu-item"><a href="/about" class="text-white nav-link">About</a></li>
-                    <li class="navigation-menu-item"><a href="/team" class="text-white nav-link">Team</a></li>
+                    <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/about" class="text-white nav-link">About</a></li>
+                    <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/team" class="text-white nav-link">Team</a></li>
                     <li class="navigation-menu-item">
                         <div data-delay="0" class="w-dropdown">
                             <div class="navigation-dropdown-item-toggle text-white w-dropdown-toggle">
@@ -37,15 +37,15 @@
                                 <div>Practice Areas</div>
                             </div>
                             <nav class="dropdown-list w-dropdown-list">
-                                <a href="/about" class="dropdown-link w-dropdown-link">Lobbying</a>
-                                <a href="/team" class="dropdown-link w-dropdown-link">Governmental Affairs</a>
-                                <a href="/services" class="dropdown-link w-dropdown-link">Procurement</a>
-                                <a href="/careers" class="dropdown-link w-dropdown-link">Business Services</a>
+                                <a href="<?php echo home_url(); ?>/practice-areas/lobbying" class="dropdown-link w-dropdown-link">Lobbying</a>
+                                <a href="<?php echo home_url(); ?>/practice-areas/governmental-affairs" class="dropdown-link w-dropdown-link">Governmental Affairs</a>
+                                <a href="<?php echo home_url(); ?>/practice-areas/procurement" class="dropdown-link w-dropdown-link">Procurement</a>
+                                <a href="<?php echo home_url(); ?>/practice-areas/business-services" class="dropdown-link w-dropdown-link">Business Services</a>
                             </nav>
                         </div>
                     </li>
-                    <li class="navigation-menu-item"><a href="/testimonials" class="text-white nav-link">Testimonials</a></li>
-                    <li class="navigation-menu-item"><a href="/news" class="text-white nav-link">News</a></li>
+                    <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/testimonials" class="text-white nav-link">Testimonials</a></li>
+                    <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/news" class="text-white nav-link">News</a></li>
                 </ul>
             </div>
         </div>
