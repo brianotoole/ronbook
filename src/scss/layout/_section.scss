@@ -13,6 +13,13 @@
   }
 }
 
+.section-center-mobile {
+  @media (max-width: $tablet) {
+    margin: auto;
+    text-align: center;
+  }
+}
+
 .section.style-guide-section {
   padding-bottom: 90px;
 }

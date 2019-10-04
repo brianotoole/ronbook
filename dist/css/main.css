@@ -4451,6 +4451,11 @@ textarea {
       padding-top: 180px;
       padding-bottom: 180px; } }
 
+@media (max-width: 768px) {
+  .section-center-mobile {
+    margin: auto;
+    text-align: center; } }
+
 .section.style-guide-section {
   padding-bottom: 90px; }
 
@@ -4701,7 +4706,7 @@ textarea {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 15px 0;
-  padding: 60px 30px 30px;
+  padding: 30px 15px 15px;
   text-align: center;
   -webkit-box-shadow: 0 0 20px rgba(34, 34, 34, 0.1);
           box-shadow: 0 0 20px rgba(34, 34, 34, 0.1);
@@ -4713,7 +4718,8 @@ textarea {
     .service {
       -ms-flex-preferred-size: calc(25% - 30px);
           flex-basis: calc(25% - 30px);
-      margin: 15px; } }
+      margin: 15px;
+      padding: 60px 30px 30px; } }
   .service:hover {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
@@ -4724,6 +4730,9 @@ textarea {
   width: 100%;
   height: 100px;
   margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    .service__icon {
+      height: 75px; } }
 
 .service__title {
   color: #222; }
@@ -4786,9 +4795,15 @@ textarea {
 .testimonials .services .service__icon {
   width: auto;
   height: 100px; }
+  @media (max-width: 768px) {
+    .testimonials .services .service__icon {
+      height: 75px; } }
   .testimonials .services .service__icon--smaller {
     height: 75px;
     margin-top: 20px; }
+    @media (max-width: 768px) {
+      .testimonials .services .service__icon--smaller {
+        height: 55px; } }
 
 .testimonial-slider {
   height: auto;

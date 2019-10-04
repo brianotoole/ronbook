@@ -28,8 +28,8 @@
                 </a>
                 <div class="navigation-additional-controls white"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7cb836b8ea_icon-search-white.svg" alt="" class="navigation-control search-toggle" /><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cd3f536b8e9_icon-menu-white.svg" alt="" class="navigation-control mobile-toggle" /></div>
                 <ul class="navigation-menu w-list-unstyled">
-                    <li class="navigation-menu-item"><a href="/case-studies" class="text-white nav-link">About</a></li>
-                    <li class="navigation-menu-item"><a href="/case-studies" class="text-white nav-link">Team</a></li>
+                    <li class="navigation-menu-item"><a href="/about" class="text-white nav-link">About</a></li>
+                    <li class="navigation-menu-item"><a href="/team" class="text-white nav-link">Team</a></li>
                     <li class="navigation-menu-item">
                         <div data-delay="0" class="w-dropdown">
                             <div class="navigation-dropdown-item-toggle text-white w-dropdown-toggle">
@@ -44,8 +44,8 @@
                             </nav>
                         </div>
                     </li>
-                    <li class="navigation-menu-item"><a href="/case-studies" class="text-white nav-link">Testimonials</a></li>
-                    <li class="navigation-menu-item"><a href="#" class="text-white nav-link">News</a></li>
+                    <li class="navigation-menu-item"><a href="/testimonials" class="text-white nav-link">Testimonials</a></li>
+                    <li class="navigation-menu-item"><a href="/news" class="text-white nav-link">News</a></li>
                 </ul>
             </div>
         </div>

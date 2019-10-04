@@ -59,9 +59,15 @@
 .testimonials .services .service__icon {
   width: auto;
   height: 100px;
+  @media (max-width: $tablet) {
+    height: 75px;
+  }
   &--smaller {
     height: 75px;
     margin-top: 20px;
+    @media (max-width: $tablet) {
+      height: 55px;
+    }
   }
 }
 
