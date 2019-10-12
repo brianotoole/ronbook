@@ -10,6 +10,8 @@
 <?php
 // Custom Field Group == Site Options
 $site_logo = get_field('site_logo', 'option');
+$body_class = get_body_class();
+
 ?>
 
 <body <?php body_class(); ?>>
@@ -19,7 +21,7 @@ $site_logo = get_field('site_logo', 'option');
 
 <div class="page-content">
 
-<div id="navigation" class="navigation-bar navigation-bar-overlay">
+<div id="navigation" class="navigation-bar <?php if (!in_array('page-template-practice-areas',$body_class)) : echo 'navigation-bar-overlay'; endif; ?>">
     <div class="container">
         <div class="navigation-wrapper">
             <a href="/" class="navigation-logo w-inline-block w--current">
@@ -33,20 +35,7 @@ $site_logo = get_field('site_logo', 'option');
                 <ul class="navigation-menu w-list-unstyled">
                     <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/about" class="text-white nav-link">About</a></li>
                     <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/team" class="text-white nav-link">Team</a></li>
-                    <li class="navigation-menu-item">
-                        <div data-delay="0" class="w-dropdown">
-                            <div class="navigation-dropdown-item-toggle text-white w-dropdown-toggle">
-                                <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                                <div>Practice Areas</div>
-                            </div>
-                            <nav class="dropdown-list w-dropdown-list">
-                                <a href="<?php echo home_url(); ?>/practice-areas/lobbying" class="dropdown-link w-dropdown-link">Lobbying</a>
-                                <a href="<?php echo home_url(); ?>/practice-areas/governmental-affairs" class="dropdown-link w-dropdown-link">Governmental Affairs</a>
-                                <a href="<?php echo home_url(); ?>/practice-areas/procurement" class="dropdown-link w-dropdown-link">Procurement</a>
-                                <a href="<?php echo home_url(); ?>/practice-areas/business-services" class="dropdown-link w-dropdown-link">Business Services</a>
-                            </nav>
-                        </div>
-                    </li>
+                    <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/practice-areas" class="text-white nav-link">Practice Areas</a></li>
                     <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/testimonials" class="text-white nav-link">Testimonials</a></li>
                     <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/news" class="text-white nav-link">News</a></li>
                 </ul>

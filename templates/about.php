@@ -53,7 +53,7 @@ get_template_part('template-parts/hero', '');
 </div>
 
 
-<div class="section section-center-mobile bg-primary faded">
+<div class="section section-center-mobile bg-secondary faded">
   <div class="container">
     <h5 class="heading-sub u-color-black">Our Team</h5>
     <h2 class="heading-main u-color-black">Our diverse team continues to lead the way in government affairs and lobbying services in Florida and beyond.</h2>

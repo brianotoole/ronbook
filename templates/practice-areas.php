@@ -4,35 +4,22 @@
 <?php get_header(); ?>
 
 
-<!-- HERO -->
-<div class="hero-section">
-    <div class="bg-image-container">
-        <div class="bg-image team-hero"></div>
-    </div>
-    <div class="hero-container">
-        <div class="hero-content-container">
-            <h1 class="hero-heading">A full-service government relations and lobbying firm in Florida</h1>
-            <h4 class="hero-subtitle"></h4>
-        </div>
-    </div>
-    <div class="container">
-      <a href="#First-Section" class="hero-next-button w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c76fb36b8db_icon-arrow-down.svg" alt="" /></a>
-    </div>
-    <div data-w-id="eb932dbb-19c7-a38e-6f4a-e8d79560b11f" class="decoration ring home-hero-ring"></div>
-</div><!--/.hero-section-->
-
-
 
 <!-- INTRO -->
-<div id="First-Section" class="section section-center-mobile intro first-section text-center">
-    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container container-narrow">
-        <h2>Our History</h2>
-        <div class="heading-underline"></div>
-        <div class="heading-underline"></div>
-        <p>Since our beginnings in 1984 in South Florida, our focus has never changed -- <strong>serve our clients with trust and integrity</strong>.</p>
-        <p>Our team has one priority: getting the job done for our clients. We believe the best strategy is a reputation for going above and beyond. We have built reputation for becoming policy experts and for providing strategic direction that creates success for our clients.</p>
-    </div>
-</div>
+<div class="section section-center-mobile">
+  <div class="container">
+    <div class="row pa-intro">
+      <div class="column column-text">
+        <h2 class="heading-main u-color-black">A full-service government relations and lobbying firm in Florida.</h2>
+        <p class="u-p-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea adipisci nihil ratione odio a asperiores ipsa error eum voluptatem voluptate.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus obcaecati voluptates incidunt alias velit molestias suscipit quia quibusdam qui laboriosam dolorum delectus consequatur, expedita, distinctio nesciunt voluptatum molestiae atque.</p>
+      </div><!-- /.column -->
+      <div class="column column-img">
+        <img src="<?php echo get_the_post_thumbnail_url(); ?>" class="size-full">
+      </div><!-- /column -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</div><!-- /.section -->
 
 
 
@@ -72,82 +59,12 @@
 
 
 
-<!-- BY THE NUMBERS -->
-<div class="section section-center-mobile contained-section bg-primary">
-    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
-      <h5 class="heading-sub u-color-white">Our Experience</h5>
-      <h2 class="heading-main u-color-white">By the Numbers</h2>
-    </div><!--/.container-->
-    <div class="numbers__wrapper">
-      <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="numbers__col numbers__col-image"></div>
-      <div class="numbers__col numbers__col-stats">
-      <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="container">
-        <div class="numbers__stat h2">50+</div>
-        <div class="numbers__stat-text">Years of Experience</div>
-        <div class="numbers__stat h2">2 States</div>
-        <div class="numbers__stat-text">Federal Relations</div>
-        <div class="numbers__stat h2">$100M+</div>
-        <div class="numbers__stat-text">Managed Campaigns</div>
-      </div><!--/.container-->
-      </div><!--/.numbers__col-stats-->
-    </div><!--/.numbers__wrapper-->
-</div><!--/.section-->
-
-
-
-<!-- TESTIMONIALS -->
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section section-center-mobile testimonials contained-section bg-primary faded">
-    <div class="container container-narrow">
-      <h5 class="heading-sub u-color-black">Relationships. Respect. Results.</h5>
-      <h3 class="heading-main u-color-black">We lead the way for clients who are key players in their fields.</h3>
-    </div><!--/.container-narrow-->
-    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
-      <div class="services">
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-auto.png">
-        </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-uber.png">
-        </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon service__icon--smaller" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-rays.png">
-        </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-fhsaa.png">
-        </div><!--/.service-->
-      </div><!--/.services-->
-      <div class="testimonials__wrapper">
-        <h5 class="heading-sub u-color-black">Testimonials</h5>
-        <div data-delay="4000" data-animation="slide" data-autoplay="1" data-nav-spacing="7" data-duration="500" data-infinite="1" class="testimonial-slider w-slider">
-            <div class="w-slider-mask">
-                <div class="testimonial-slide w-slide">
-                    <h4 class="testimonial-text">“They strike the perfect balance between personable and professional.”</h4>
-                    <div>– Andrew Clinton, Patron</div>
-                </div>
-                <div class="testimonial-slide w-slide">
-                    <h4 class="testimonial-text">“The best for a reason – these guys know their stuff”</h4>
-                    <div>– Anabelle Porter, Patron</div>
-                </div>
-                <div class="testimonial-slide w-slide">
-                    <h4 class="testimonial-text">“The team assisted in all facets of our campaign and knocked it out of the park”</h4>
-                    <div>– Anwar Sing, Unvest</div>
-                </div>
-            </div>
-            <div class="slider-arrow slider-arrow-left w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cf42c36b8f5_icon-arrow-right-white.svg" alt="" /></div>
-            <div class="slider-arrow w-slider-arrow-right"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cf42c36b8f5_icon-arrow-right-white.svg" alt="" /></div>
-            <div class="slide-nav w-slider-nav w-round"></div>
-        </div>
-      </div><!--/.testimonials__wrapper-->
-    </div><!--/.container-->
-</div><!--/.section-->
-
-
 
 
 
 <!-- CASE STUDY -->
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section-center-mobile feat-case-study bg-primary">
-  <div class="feat-case-study__col feat-case-study__col--image">  
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section-center-mobile feat-case-study u-border-btm-light bg-primary">
+  <div class="feat-case-study__col feat-case-study__col--image"> 
   </div><!--/.feat-case-study__col-->
   <div class="feat-case-study__col">  
     <div class="feat-case-study__content">
@@ -166,40 +83,6 @@
     </div><!--/.feat-case-study__content-->
   </div><!--/.feat-case-study__col-->
 </div><!--/.section-->
-
-
-
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section section-center-mobile news">
-    <div class="container">
-        <h2 class="section-title">In the News</h2>
-        <div class="heading-underline"></div>
-        <div class="heading-underline"></div>
-        <div class="news__list">
-          <div class="news__item">
-            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
-            <div class="news__ribbon">Press Release</div>
-          </div><!--/.news__item-->
-          <div class="news__item">
-            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
-            <div class="news__ribbon">Press Release</div>
-          </div><!--/.news__item-->
-          <div class="news__item">
-            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
-            <div class="news__ribbon">Press Release</div>
-          </div><!--/.news__item-->
-        </div><!--/.news__list-->
-        <div class="news__link-wrapper">
-            <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="underline-link w-inline-block">
-                <div>See More News</div>
-                <div class="underline-container">
-                    <div class="underline-track"></div>
-                    <div class="underline-progress"></div>
-                </div><!--/.underline-contatiner-->
-            </a><!--/.news__link-->
-        </div><!--/.text-right-->
-    </div><!--/.container-->
-</div><!--/.section-->
-
 
 
 <div class="section section-center-mobile cta bg-primary overflow-hidden">

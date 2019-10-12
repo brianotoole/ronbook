@@ -1,0 +1,19 @@
+/*********************************************************
+  Practice Areas
+*********************************************************/
+
+.pa-intro .heading-main {
+  margin-bottom: 0;
+}
+
+.pa-intro .column-text {
+  @media (min-width: $tablet) {
+    padding-right: 90px;
+  }
+}
+
+.pa-intro .column-img img {
+  @media (min-width: $tablet) {
+    max-width: 485px;
+  }
+}

@@ -23,7 +23,7 @@ get_template_part('template-parts/hero', '');
 
 
 <!-- AREAS OF PRACTICE -->
-<div class="section contained-section bg-primary faded">
+<div class="section contained-section bg-secondary faded">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
       <h2 class="heading-main u-color-black">Influence for Lasting Change</h2>
@@ -82,7 +82,7 @@ get_template_part('template-parts/hero', '');
 
 
 <!-- TESTIMONIALS -->
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section testimonials contained-section bg-primary faded">
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section testimonials contained-section bg-secondary faded">
     <div class="container container-narrow">
       <h5 class="heading-sub u-color-black">Relationships. Respect. Results.</h5>
       <h3 class="heading-main u-color-black">We lead the way for clients who are key players in their fields.</h3>

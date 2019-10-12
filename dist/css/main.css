@@ -4276,17 +4276,22 @@ textarea {
   z-index: 3;
   padding-top: 15px;
   padding-bottom: 0px;
-  background: rgba(34, 34, 34, 0.05);
+  background: #014F39;
   -webkit-transition: background 0.3s linear;
   transition: background 0.3s linear; }
   .navigation-bar:hover {
-    background: rgba(34, 34, 34, 0.15); }
+    background: #012c20; }
 
 .navigation-bar.navigation-bar-overlay {
   position: absolute;
   z-index: 2;
   width: 100vw;
-  color: #fff; }
+  color: #fff;
+  background: rgba(34, 34, 34, 0.05);
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear; }
+  .navigation-bar.navigation-bar-overlay:hover {
+    background: rgba(34, 34, 34, 0.15); }
 
 .navigation-wrapper {
   display: -webkit-box;
@@ -4992,6 +4997,20 @@ textarea {
   float: none; }
 
 /*********************************************************
+  Practice Areas
+*********************************************************/
+.pa-intro .heading-main {
+  margin-bottom: 0; }
+
+@media (min-width: 991px) {
+  .pa-intro .column-text {
+    padding-right: 90px; } }
+
+@media (min-width: 991px) {
+  .pa-intro .column-img img {
+    max-width: 485px; } }
+
+/*********************************************************
   Utility / Helper Classes
   @NOTE: prefix with ".u-"
 *********************************************************/
@@ -5085,6 +5104,18 @@ textarea {
 
 .u-font-body {
   font-family: Cardo, sans-serif; }
+
+.u-p-xl {
+  font-size: 1.5rem; }
+  @media (min-width: 991px) {
+    .u-p-xl {
+      font-size: 1.875rem; } }
+
+.u-p-lg {
+  font-size: 1.25rem; }
+  @media (min-width: 991px) {
+    .u-p-lg {
+      font-size: 1.625rem; } }
 
 .u-p-md {
   font-size: 1.125rem; }
