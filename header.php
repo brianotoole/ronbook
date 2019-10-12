@@ -9,19 +9,22 @@
 
 <?php
 // Custom Field Group == Site Options
-// $site_logo = get_field('site_logo', 'option');
+$site_logo = get_field('site_logo', 'option');
 ?>
 
 <body <?php body_class(); ?>>
-<div class="loader"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cdc6e36b902_loader.svg" alt=""/></div>
+<div class="loader">
+  <img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cdc6e36b902_loader.svg" alt=""/>
+</div><!-- /.loader -->
 
 <div class="page-content">
 
 <div id="navigation" class="navigation-bar navigation-bar-overlay">
     <div class="container">
         <div class="navigation-wrapper">
-            <a href="/" class="w-inline-block w--current">
-                <img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c601a36b8e3_logo-white.svg" alt="" /></a>
+            <a href="/" class="navigation-logo w-inline-block w--current">
+             <img src="<?php echo $site_logo['url']; ?>"/>
+            </a>
             <div class="navigation-items">
                 <a href="<?php echo home_url(); ?>/contact" class="button button-transparent button-navigation u-visible-tablet w-inline-block">
                     <div>Contact</div>

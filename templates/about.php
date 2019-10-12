@@ -17,15 +17,104 @@ get_template_part('template-parts/hero', '');
         <p>Since our beginnings in 1984 in South Florida, our focus has never changed -- <strong>serve our clients with trust and integrity</strong>.</p>
         <p>Our team has one priority: getting the job done for our clients. We believe the best strategy is a reputation for going above and beyond. We have built reputation for becoming policy experts and for providing strategic direction that creates success for our clients.</p>
     </div>
+    <div class="container about-company-quote">
+      <div class="quote-with-image">
+          <img src="https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1.jpg" srcset="https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1.jpg 974w" sizes="(max-width: 767px) 100vw, 487px" alt="" class="quote-author-image">
+          <div class="quote-container">
+            <blockquote>"This is a cool quote from Ron about how great the company is."</blockquote>
+            <div class="quote-lower">
+                <div class="quote-author-text-container">
+                  <div class="quote-author-line"></div>
+                  <div class="quote-author-text">
+                      <h5 class="quote-author-heading">Ron Book</h5>
+                      <div>President & CEO</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div><!-- /.container -->
+    <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="section section-no-pad-btm container about-numbers">
+      <div class="numbers__wrapper numbers__wrapper-horizontal">
+        <div class="numbers__col numbers__col-stats">
+          <div class="numbers__stat h2">50+</div>
+          <div class="numbers__stat-text">Years of Experience</div>
+        </div><!-- /.numbers__col -->
+        <div class="numbers__col numbers__col-stats">
+          <div class="numbers__stat h2">2 States</div>
+          <div class="numbers__stat-text">Federal Relations</div>
+        </div><!-- /.number__col -->
+        <div class="numbers__col numbers__col-stats">
+          <div class="numbers__stat h2">$100M+</div>
+          <div class="numbers__stat-text">Managed Campaigns</div>
+        </div><!-- /.number__col -->
+      </div><!--/.numbers__wrapper-->
+    </div><!-- .container.about-stats -->
+</div>
+
+
+<div class="section section-center-mobile bg-primary faded">
+  <div class="container">
+    <h5 class="heading-sub u-color-black">Our Team</h5>
+    <h2 class="heading-main u-color-black">Our diverse team continues to lead the way in government affairs and lobbying services in Florida and beyond.</h2>
+    <div class="w-dyn-list">
+      <div class="row team-row w-dyn-items">
+        <div class="column column-third team-member-column w-dyn-item">
+          <a href="/team/derek-ritter" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f2c7ad10c642a8397dfd_team-male-1.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f2c7ad10c642a8397dfd_team-male-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f2c7ad10c642a8397dfd_team-male-1.jpg 764w" class="team-member-image"></a>
+          <div>
+            <h4 class="team-member-heading">Derek Ritter</h4>
+            <h5>Founder &amp; Partner</h5>
+            <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+                <div>Read Bio</div>
+                <div class="underline-container">
+                    <div class="underline-track"></div>
+                    <div class="underline-progress"></div>
+                </div><!--/.underline-contatiner-->
+            </a><!--/.news__link-->
+          </div>
+        </div>
+        <div class="column column-third team-member-column w-dyn-item">
+          <a href="/team/frank-sims" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f326825a7639708e301a_team-male-2.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f326825a7639708e301a_team-male-2-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f326825a7639708e301a_team-male-2.jpg 764w" class="team-member-image"></a>
+          <div>
+            <h4 class="team-member-heading">Frank Sims</h4>
+            <h5>Founder &amp; Partner</h5>
+            <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+                <div>Read Bio</div>
+                <div class="underline-container">
+                    <div class="underline-track"></div>
+                    <div class="underline-progress"></div>
+                </div><!--/.underline-contatiner-->
+            </a><!--/.news__link-->
+          </div>
+        </div>
+        <div class="column column-third team-member-column w-dyn-item">
+          <a href="/team/annabelle-porter" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f356043c3c3ce772ae72_team-female-1.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f356043c3c3ce772ae72_team-female-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f356043c3c3ce772ae72_team-female-1.jpg 764w" class="team-member-image"></a>
+          <div>
+            <h4 class="team-member-heading">Annabelle Porter</h4>
+            <h5>Senior Advisor</h5>
+            <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+                <div>Read Bio</div>
+                <div class="underline-container">
+                    <div class="underline-track"></div>
+                    <div class="underline-progress"></div>
+                </div><!--/.underline-contatiner-->
+            </a><!--/.news__link-->
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 </div>
 
 
 
+
 <!-- AREAS OF PRACTICE -->
-<div class="section section-center-mobile contained-section bg-primary faded">
+<div class="section section-center-mobile contained-section">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
-      <h2 class="heading-main u-color-black">Influence for Lasting Change</h2>
+      <h2 class="heading-main u-color-black">How We Help</h2>
       <div class="services">
         <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
@@ -45,7 +134,7 @@ get_template_part('template-parts/hero', '');
         </div><!--/.service-->
       </div><!--/.services-->
       <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
-                <div>See More News</div>
+                <div>Learn More</div>
                 <div class="underline-container">
                     <div class="underline-track"></div>
                     <div class="underline-progress"></div>
@@ -57,81 +146,11 @@ get_template_part('template-parts/hero', '');
 
 
 
-<!-- BY THE NUMBERS -->
-<div class="section section-center-mobile contained-section bg-primary">
-    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
-      <h5 class="heading-sub u-color-white">Our Experience</h5>
-      <h2 class="heading-main u-color-white">By the Numbers</h2>
-    </div><!--/.container-->
-    <div class="numbers__wrapper">
-      <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="numbers__col numbers__col-image"></div>
-      <div class="numbers__col numbers__col-stats">
-      <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="container">
-        <div class="numbers__stat h2">50+</div>
-        <div class="numbers__stat-text">Years of Experience</div>
-        <div class="numbers__stat h2">2 States</div>
-        <div class="numbers__stat-text">Federal Relations</div>
-        <div class="numbers__stat h2">$100M+</div>
-        <div class="numbers__stat-text">Managed Campaigns</div>
-      </div><!--/.container-->
-      </div><!--/.numbers__col-stats-->
-    </div><!--/.numbers__wrapper-->
-</div><!--/.section-->
-
-
-
-<!-- TESTIMONIALS -->
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section section-center-mobile testimonials contained-section bg-primary faded">
-    <div class="container container-narrow">
-      <h5 class="heading-sub u-color-black">Relationships. Respect. Results.</h5>
-      <h3 class="heading-main u-color-black">We lead the way for clients who are key players in their fields.</h3>
-    </div><!--/.container-narrow-->
-    <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
-      <div class="services">
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-auto.png">
-        </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-uber.png">
-        </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon service__icon--smaller" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-rays.png">
-        </div><!--/.service-->
-        <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/logo-fhsaa.png">
-        </div><!--/.service-->
-      </div><!--/.services-->
-      <div class="testimonials__wrapper">
-        <h5 class="heading-sub u-color-black">Testimonials</h5>
-        <div data-delay="4000" data-animation="slide" data-autoplay="1" data-nav-spacing="7" data-duration="500" data-infinite="1" class="testimonial-slider w-slider">
-            <div class="w-slider-mask">
-                <div class="testimonial-slide w-slide">
-                    <h4 class="testimonial-text">“They strike the perfect balance between personable and professional.”</h4>
-                    <div>– Andrew Clinton, Patron</div>
-                </div>
-                <div class="testimonial-slide w-slide">
-                    <h4 class="testimonial-text">“The best for a reason – these guys know their stuff”</h4>
-                    <div>– Anabelle Porter, Patron</div>
-                </div>
-                <div class="testimonial-slide w-slide">
-                    <h4 class="testimonial-text">“The team assisted in all facets of our campaign and knocked it out of the park”</h4>
-                    <div>– Anwar Sing, Unvest</div>
-                </div>
-            </div>
-            <div class="slider-arrow slider-arrow-left w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cf42c36b8f5_icon-arrow-right-white.svg" alt="" /></div>
-            <div class="slider-arrow w-slider-arrow-right"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cf42c36b8f5_icon-arrow-right-white.svg" alt="" /></div>
-            <div class="slide-nav w-slider-nav w-round"></div>
-        </div>
-      </div><!--/.testimonials__wrapper-->
-    </div><!--/.container-->
-</div><!--/.section-->
-
-
 
 
 
 <!-- CASE STUDY -->
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section-center-mobile feat-case-study bg-primary">
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section-center-mobile feat-case-study u-border-btm-light bg-primary">
   <div class="feat-case-study__col feat-case-study__col--image">  
   </div><!--/.feat-case-study__col-->
   <div class="feat-case-study__col">  
@@ -152,38 +171,6 @@ get_template_part('template-parts/hero', '');
   </div><!--/.feat-case-study__col-->
 </div><!--/.section-->
 
-
-
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section section-center-mobile news">
-    <div class="container">
-        <h2 class="section-title">In the News</h2>
-        <div class="heading-underline"></div>
-        <div class="heading-underline"></div>
-        <div class="news__list">
-          <div class="news__item">
-            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
-            <div class="news__ribbon">Press Release</div>
-          </div><!--/.news__item-->
-          <div class="news__item">
-            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
-            <div class="news__ribbon">Press Release</div>
-          </div><!--/.news__item-->
-          <div class="news__item">
-            <h3 class="news__title">Suzanne Gilbert Appointed to American Bar Association's Standing Committee on the Federal Judiciary</h3>
-            <div class="news__ribbon">Press Release</div>
-          </div><!--/.news__item-->
-        </div><!--/.news__list-->
-        <div class="news__link-wrapper">
-            <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="underline-link w-inline-block">
-                <div>See More News</div>
-                <div class="underline-container">
-                    <div class="underline-track"></div>
-                    <div class="underline-progress"></div>
-                </div><!--/.underline-contatiner-->
-            </a><!--/.news__link-->
-        </div><!--/.text-right-->
-    </div><!--/.container-->
-</div><!--/.section-->
 
 
 

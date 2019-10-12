@@ -564,7 +564,7 @@ body {
 /*********************************************************
   Typography
 *********************************************************/
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, .testimonial-text, h5, .h5, h6, .h6 {
+h1, .h1, h2, .h2, h3, .h3, blockquote, h4, .h4, .testimonial-text, h5, .h5, h6, .h6 {
   font-family: Cardo, sans-serif;
   font-weight: 400;
   line-height: 1.3;
@@ -585,10 +585,10 @@ h2, .h2 {
     h2, .h2 {
       font-size: 3.375rem; } }
 
-h3, .h3 {
+h3, .h3, blockquote {
   font-size: 1.5rem; }
   @media (min-width: 991px) {
-    h3, .h3 {
+    h3, .h3, blockquote {
       font-size: 2.375rem; } }
 
 h4, .h4, .testimonial-text {
@@ -646,12 +646,9 @@ a {
     color: #012c20; }
 
 blockquote {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding: 90px 90px 60px;
-  border-left: 5px none #EEEEEE;
-  background-color: rgba(52, 78, 65, 0.1);
-  font-family: Cardo, sans-serif;
-  line-height: 45px; }
+  border-left: 5px none #EEEEEE; }
 
 label {
   display: block;
@@ -2676,12 +2673,9 @@ textarea.w-select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+      -ms-flex-align: center;
+          align-items: center; }
 
 .quote-author-image {
   max-width: 487px;
@@ -2695,15 +2689,14 @@ textarea.w-select {
   position: relative;
   padding-right: 90px;
   padding-bottom: 60px;
-  padding-left: 90px;
-  background-color: rgba(52, 78, 65, 0.1); }
+  padding-left: 90px; }
 
 .quote-container {
   position: absolute;
   right: 0px;
   width: 100%;
   max-width: 762px;
-  background-color: #fff; }
+  background-color: #EEEEEE; }
 
 .quote-container.case-study-quote {
   position: relative;
@@ -4356,6 +4349,9 @@ textarea {
       -ms-flex-align: center;
           align-items: center; }
 
+.navigation-logo {
+  width: 75px; }
+
 .navigation-additional-controls {
   margin-left: 30px;
   padding-left: 0px;
@@ -4476,6 +4472,9 @@ textarea {
   .section-center-mobile {
     margin: auto;
     text-align: center; } }
+
+.section-no-pad-btm {
+  padding-bottom: 0; }
 
 .section.style-guide-section {
   padding-bottom: 90px; }
@@ -4982,6 +4981,17 @@ textarea {
   margin-bottom: 45px; }
 
 /*********************************************************
+  About
+*********************************************************/
+.team-member-heading,
+.team-member-heading + h5 {
+  color: #222;
+  margin-bottom: 0; }
+
+.team-row .service__link {
+  float: none; }
+
+/*********************************************************
   Utility / Helper Classes
   @NOTE: prefix with ".u-"
 *********************************************************/
@@ -5053,7 +5063,7 @@ textarea {
   color: #fff; }
 
 .bg-primary.faded {
-  background-color: rgba(52, 78, 65, 0.1); }
+  background-color: rgba(52, 78, 65, 0.15); }
 
 .u-bg-primary {
   background-color: #014F39; }
@@ -5063,6 +5073,9 @@ textarea {
 
 .u-bg-white {
   background-color: #fff; }
+
+.u-border-btm-light {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
 
 /**
   * Fonts

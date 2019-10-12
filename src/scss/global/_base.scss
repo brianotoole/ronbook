@@ -138,12 +138,10 @@ a {
 }
 
 blockquote {
-  margin-bottom: 0px;
+  @extend .h3;
+  margin-bottom: 0;
   padding: 90px 90px 60px;
   border-left: 5px none $color__border;
-  background-color: rgba(52, 78, 65, 0.1);
-  font-family: $font__heading;
-  line-height: 45px;
 }
 
 label {

@@ -75,9 +75,8 @@
     background-color: $color__primary;
     color: $color__white;
   }
-  
   .bg-primary.faded {
-    background-color: rgba(52, 78, 65, 0.1);
+    background-color: rgba(52, 78, 65, 0.15);
   }
 
 .u-bg-primary {
@@ -90,6 +89,10 @@
 
 .u-bg-white {
   background-color: $color__white;
+}
+
+.u-border-btm-light {
+  border-bottom: 2px solid rgba($color__white, 0.1);
 }
 
 /**

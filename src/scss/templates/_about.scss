@@ -1,3 +1,13 @@
 /*********************************************************
   About
 *********************************************************/
+
+.team-member-heading,
+.team-member-heading + h5 {
+  color: $color__text;
+  margin-bottom: 0;
+}
+
+.team-row .service__link {
+  float: none;
+}
