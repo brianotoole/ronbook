@@ -1,26 +1,11 @@
-<?php /* Template Name: Testimonials */ ?>
+<?php /* Template Name: Testimonials */
+
+get_header();
+
+get_template_part('template-parts/hero', '');
 
 
-<?php get_header(); ?>
-
-
-<!-- HERO -->
-<div class="hero-section">
-    <div class="bg-image-container">
-        <div class="bg-image testimonials-hero"></div>
-    </div>
-    <div class="hero-container">
-        <div class="hero-content-container">
-            <h1 class="hero-heading">Clients & Testimonials</h1>
-            <h4 class="hero-subtitle">We work with some of the world's most innovative companies. We're who you call to get something done.</h4>
-        </div>
-    </div>
-    <div class="container">
-      <a href="#First-Section" class="hero-next-button w-inline-block"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c76fb36b8db_icon-arrow-down.svg" alt="" /></a>
-    </div>
-    <div data-w-id="eb932dbb-19c7-a38e-6f4a-e8d79560b11f" class="decoration ring home-hero-ring"></div>
-</div><!--/.hero-section-->
-
+?>
 
 
 <!-- INTRO -->

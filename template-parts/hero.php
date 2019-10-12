@@ -16,8 +16,10 @@ $slug_name = get_post_field('post_name', get_post());
   </div><!-- /.hero-section -->
   <div class="hero-container">
     <div class="hero-content-container">
+      <?php if ($hero_title) : ?>
       <h1 class="hero-title"><?php echo $hero_title; ?></h1>
       <h4 class="hero-subtitle"><?php echo $hero_subtitle; ?></h4>
+      <?php endif; ?>
     </div><!-- /.hero-content-container -->
   </div><!-- /.hero-container -->
   <div class="container">

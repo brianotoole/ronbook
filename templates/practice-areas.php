@@ -1,4 +1,4 @@
-<?php /* Template Name: Team */ ?>
+<?php /* Template Name: Practice Areas */ ?>
 
 
 <?php get_header(); ?>
@@ -11,8 +11,8 @@
     </div>
     <div class="hero-container">
         <div class="hero-content-container">
-            <h1 class="hero-heading">Insightful Experience</h1>
-            <h4 class="hero-subtitle">Our diverse team continues to lead the way in governmental affairs and lobbying services.</h4>
+            <h1 class="hero-heading">A full-service government relations and lobbying firm in Florida</h1>
+            <h4 class="hero-subtitle"></h4>
         </div>
     </div>
     <div class="container">
