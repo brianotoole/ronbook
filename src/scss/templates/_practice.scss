@@ -17,3 +17,16 @@
     max-width: 485px;
   }
 }
+
+.services-full {
+  flex-wrap: unset;
+}
+
+.services-full .service {
+  flex-basis: calc(40% - 15px);
+}
+
+.service__description {
+  padding-top: 60px;
+  padding-left: 60px;
+}

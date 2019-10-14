@@ -5010,6 +5010,18 @@ textarea {
   .pa-intro .column-img img {
     max-width: 485px; } }
 
+.services-full {
+  -ms-flex-wrap: unset;
+      flex-wrap: unset; }
+
+.services-full .service {
+  -ms-flex-preferred-size: calc(40% - 15px);
+      flex-basis: calc(40% - 15px); }
+
+.service__description {
+  padding-top: 60px;
+  padding-left: 60px; }
+
 /*********************************************************
   Utility / Helper Classes
   @NOTE: prefix with ".u-"

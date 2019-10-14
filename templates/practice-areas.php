@@ -24,35 +24,77 @@
 
 
 <!-- AREAS OF PRACTICE -->
-<div class="section section-center-mobile contained-section bg-primary faded">
+<div class="section section-center-mobile contained-section bg-secondary faded">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
-      <h2 class="heading-main u-color-black">Influence for Lasting Change</h2>
-      <div class="services">
+      <h2 class="heading-main u-color-black">Informed experts in an ever-changing landscape</h2>
+      <div class="services services-full">
         <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
           <div class="service__title h4">Lobbying</div>
         </div><!--/.service-->
+        <div class="service__description">
+          <h5>Lobbying</h5>
+          <p>Ron L Book, P.A. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quisquam expedita ex doloremque error laboriosam dolor sequi harum earum veritatis tenetur necessitatibus aut, sunt rem consequuntur alias dicta repudiandae iste.</p>
+          <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+            <div>See Case Study</div>
+              <div class="underline-container">
+                <div class="underline-track"></div>
+                <div class="underline-progress"></div>
+              </div><!--/.underline-contatiner-->
+          </a><!--/.news__link-->
+        </div><!-- service__description -->
+      </div><!--/.services.services-full-->
+      <div class="services services-full">
         <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
-          <div class="service__title h4">Government Affairs</div>
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
         </div><!--/.service-->
+        <div class="service__description">
+          <h5>Lobbying</h5>
+          <p>Ron L Book, P.A. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quisquam expedita ex doloremque error laboriosam dolor sequi harum earum veritatis tenetur necessitatibus aut, sunt rem consequuntur alias dicta repudiandae iste.</p>
+          <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+            <div>See Case Study</div>
+              <div class="underline-container">
+                <div class="underline-track"></div>
+                <div class="underline-progress"></div>
+              </div><!--/.underline-contatiner-->
+          </a><!--/.news__link-->
+        </div><!-- service__description -->
+      </div><!--/.services.services-full-->
+      <div class="services services-full">
         <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
-          <div class="service__title h4">Procurement</div>
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
+          <div class="service__title h4">Lobbying</div>
         </div><!--/.service-->
+        <div class="service__description">
+          <h5>Lobbying</h5>
+          <p>Ron L Book, P.A. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quisquam expedita ex doloremque error laboriosam dolor sequi harum earum veritatis tenetur necessitatibus aut, sunt rem consequuntur alias dicta repudiandae iste.</p>
+          <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+            <div>See Case Study</div>
+              <div class="underline-container">
+                <div class="underline-track"></div>
+                <div class="underline-progress"></div>
+              </div><!--/.underline-contatiner-->
+          </a><!--/.news__link-->
+        </div><!-- service__description -->
+      </div><!--/.services.services-full-->
+      <div class="services services-full">
         <div class="service">
-          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
-          <div class="service__title h4">Business Development</div>
+          <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
+          <div class="service__title h4">Lobbying</div>
         </div><!--/.service-->
-      </div><!--/.services-->
-      <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
-                <div>See More News</div>
-                <div class="underline-container">
-                    <div class="underline-track"></div>
-                    <div class="underline-progress"></div>
-                </div><!--/.underline-contatiner-->
-            </a><!--/.news__link-->
+        <div class="service__description">
+          <h5>Lobbying</h5>
+          <p>Ron L Book, P.A. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quisquam expedita ex doloremque error laboriosam dolor sequi harum earum veritatis tenetur necessitatibus aut, sunt rem consequuntur alias dicta repudiandae iste.</p>
+          <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
+            <div>See Case Study</div>
+              <div class="underline-container">
+                <div class="underline-track"></div>
+                <div class="underline-progress"></div>
+              </div><!--/.underline-contatiner-->
+          </a><!--/.news__link-->
+        </div><!-- service__description -->
+      </div><!--/.services.services-full-->
     </div><!--/.container-->
     <div data-w-id="eb932dbb-19c7-a38e-6f4a-e8d79560b11f" class="decoration ring testimonials-ring"></div>
 </div><!--/.section-->
