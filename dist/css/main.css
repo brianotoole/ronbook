@@ -4478,8 +4478,15 @@ textarea {
     margin: auto;
     text-align: center; } }
 
+.section-no-pad-top {
+  padding-top: 0; }
+
 .section-no-pad-btm {
   padding-bottom: 0; }
+
+.section-pad-sm {
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .section.style-guide-section {
   padding-bottom: 90px; }
@@ -4949,6 +4956,8 @@ textarea {
     @media (min-width: 991px) {
       .feat-case-study__col--image {
         height: 600px; } }
+  .feat-case-study__col--image-careers {
+    background-image: url(../../dist/img/casestudy-careers.jpg); }
   @media (min-width: 991px) {
     .feat-case-study__col {
       height: 600px;

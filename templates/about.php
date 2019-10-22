@@ -93,7 +93,6 @@ get_template_part('template-parts/hero', '');
         </div>
         <div class="column column-third team-member-column w-dyn-item">
           <a href="/team/annabelle-porter" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f356043c3c3ce772ae72_team-female-1.jpg" alt="" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f356043c3c3ce772ae72_team-female-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c591aa43e262c076b1af08a/5c59f356043c3c3ce772ae72_team-female-1.jpg 764w" class="team-member-image"></a>
-          <div>
             <h4 class="team-member-heading">Annabelle Porter</h4>
             <h5>Senior Advisor</h5>
             <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
@@ -103,13 +102,13 @@ get_template_part('template-parts/hero', '');
                     <div class="underline-progress"></div>
                 </div><!--/.underline-contatiner-->
             </a><!--/.news__link-->
-          </div>
-        </div>
-        </div> 
-      </div>
-    </div>
-  </div>
-</div>
+          </div><!-- /.column -->
+        </div><!-- /.row -->
+        </div><!-- /.dyn-list -->
+      </div><!-- /.container -->
+
+    </div><!-- /.section -->
+
 
 
 

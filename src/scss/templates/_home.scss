@@ -120,6 +120,9 @@
       height: 600px;
     }
   }
+  &--image-careers {
+    background-image: url("../img/casestudy-careers.jpg");
+  }
   @media (min-width: $tablet) {
     height: 600px;
     flex-basis: 50%;

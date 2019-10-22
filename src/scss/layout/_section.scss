@@ -20,8 +20,17 @@
   }
 }
 
+.section-no-pad-top {
+  padding-top: 0;
+}
+
 .section-no-pad-btm {
   padding-bottom: 0;
+}
+
+.section-pad-sm {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section.style-guide-section {
