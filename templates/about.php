@@ -54,9 +54,13 @@ get_template_part('template-parts/hero', '');
 
 
 <div class="section section-center-mobile bg-secondary faded">
+  <div class="container container-narrow u-text-center">
+    <h2>Our Team</h2>
+    <div class="heading-underline"></div>
+    <div class="heading-underline"></div>
+    <h3 class="heading-main u-color-black">Our diverse team continues to lead the way in government affairs and lobbying services in Florida and beyond.</h3>
+  </div><!-- /.container -->
   <div class="container">
-    <h5 class="heading-sub u-color-black">Our Team</h5>
-    <h2 class="heading-main u-color-black">Our diverse team continues to lead the way in government affairs and lobbying services in Florida and beyond.</h2>
     <div class="w-dyn-list">
       <div class="row team-row w-dyn-items">
         <div class="column column-third team-member-column w-dyn-item">
@@ -101,7 +105,7 @@ get_template_part('template-parts/hero', '');
             </a><!--/.news__link-->
           </div>
         </div>
-        
+        </div> 
       </div>
     </div>
   </div>
@@ -113,33 +117,32 @@ get_template_part('template-parts/hero', '');
 <!-- AREAS OF PRACTICE -->
 <div class="section section-center-mobile contained-section">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
+
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
       <h2 class="heading-main u-color-black">How We Help</h2>
-      <div class="services">
+      <div class="services services-accordion">
         <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
           <div class="service__title h4">Lobbying</div>
+          <div class="service__plus"></div>
         </div><!--/.service-->
         <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
           <div class="service__title h4">Government Affairs</div>
+          <div class="service__plus"></div>
         </div><!--/.service-->
         <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
           <div class="service__title h4">Procurement</div>
+          <div class="service__plus"></div>
         </div><!--/.service-->
         <div class="service">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
           <div class="service__title h4">Business Development</div>
+          <div class="service__plus"></div>
         </div><!--/.service-->
       </div><!--/.services-->
-      <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
-                <div>Learn More</div>
-                <div class="underline-container">
-                    <div class="underline-track"></div>
-                    <div class="underline-progress"></div>
-                </div><!--/.underline-contatiner-->
-            </a><!--/.news__link-->
+
     </div><!--/.container-->
     <div data-w-id="eb932dbb-19c7-a38e-6f4a-e8d79560b11f" class="decoration ring testimonials-ring"></div>
 </div><!--/.section-->

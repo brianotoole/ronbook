@@ -4525,7 +4525,7 @@ textarea {
   background-color: #1d2b24;
   color: #fff; }
 
-.section.contained-section.bg-secondary.faded {
+.section.bg-secondary.faded {
   background-color: rgba(192, 170, 129, 0.1); }
 
 .section.flush-bottom-section {
@@ -4802,6 +4802,44 @@ textarea {
 @media (min-width: 991px) {
   .service__link {
     float: right; } }
+
+.services-accordion {
+  display: block; }
+
+.services-accordion .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+  padding: 30px; }
+
+.services-accordion .service__icon {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 0;
+  margin-right: 45px; }
+
+.services-accordion .service__title {
+  margin-bottom: 0; }
+
+.services-accordion .service__plus {
+  width: 2px;
+  height: 40px;
+  background: #A29062;
+  position: absolute;
+  right: 65px; }
+  .services-accordion .service__plus:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background: #A29062;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: -1px; }
 
 /*********************************************************
   Home
