@@ -53,21 +53,21 @@ h1, .h1 {
   font-size: rem(34);
   line-height: 1.25;
   @media (min-width: $tablet) {
-    font-size: rem(58);
+    font-size: rem(52);
   }
 }
 
 h2, .h2 {
   font-size: rem(28);
   @media (min-width: $tablet) {
-    font-size: rem(54);
+    font-size: rem(46);
   }
 }
 
 h3, .h3 {
   font-size: rem(24);
   @media (min-width: $tablet) {
-    font-size: rem(38);
+    font-size: rem(32);
   }
 }
 
@@ -123,7 +123,7 @@ h6, .h6 {
 }
 
 p {
-  font-size: rem(17);
+  font-size: rem(18);
   margin-bottom: 30px;
   letter-spacing: 0.05em;
 }
