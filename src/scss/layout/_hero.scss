@@ -35,6 +35,12 @@
   background: $color__primary;
   color: $color__white;
   z-index: 1;
+  @media (max-width: $tablet) {
+    max-width: 100%;
+    background: rgba($color__primary, 0.85);
+    margin-right: 30px;
+    padding: 30px;
+  }
 }
 
 .hero-title {

@@ -31,7 +31,13 @@ $body_class = get_body_class();
                 <a href="<?php echo home_url(); ?>/contact" class="button button-transparent button-navigation u-visible-tablet w-inline-block">
                     <div>Contact</div>
                 </a>
-                <div class="navigation-additional-controls white"><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45c7cb836b8ea_icon-search-white.svg" alt="" class="navigation-control search-toggle" /><img src="https://uploads-ssl.webflow.com/5d93b1aa23f45c2c9836b8b3/5d93b1aa23f45cd3f536b8e9_icon-menu-white.svg" alt="" class="navigation-control mobile-toggle" /></div>
+                <div class="navigation-additional-controls white">
+                    <div class="navigation-control hamburger" id="js-nav-toggle">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
                 <ul class="navigation-menu w-list-unstyled">
                     <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/about" class="text-white nav-link">About</a></li>
                     <li class="navigation-menu-item"><a href="<?php echo home_url(); ?>/team" class="text-white nav-link">Team</a></li>

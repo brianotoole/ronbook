@@ -81,6 +81,10 @@
   background: $color__secondary;
   position: absolute;
   right: 65px;
+  @media (max-width: $tablet) {
+    right: 30px;
+    height: 30px;
+  }
   &:after {
     content: '';
     position: absolute;
@@ -89,5 +93,8 @@
     background: $color__secondary;
     transform: rotate(90deg);
     margin-left: -1px;
+    @media (max-width: $tablet) {
+    height: 30px;
+  }
   }
 }

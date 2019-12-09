@@ -65,7 +65,7 @@
                     <h4>Company</h4>
                     <ul class="menu-column-list w-list-unstyled">
                         <li class="menu-column-list-item">
-                            <a data-w-id="7d6ef14b-8d21-8dc1-644d-37a23ef6faf6" href="/about" class="underline-link underline-link-white w-inline-block">
+                            <a data-w-id="7d6ef14b-8d21-8dc1-644d-37a23ef6faf6" href="<?php echo home_url();?>/about" class="underline-link underline-link-white w-inline-block">
                                 <div>About Us</div>
                                 <div class="underline-container">
                                     <div class="underline-track underline-track-white"></div>
@@ -74,7 +74,7 @@
                             </a>
                         </li>
                         <li class="menu-column-list-item">
-                            <a data-w-id="7d6ef14b-8d21-8dc1-644d-37a23ef6fafd" href="/team" class="underline-link underline-link-white w-inline-block">
+                            <a data-w-id="7d6ef14b-8d21-8dc1-644d-37a23ef6fafd" href="<?php echo home_url();?>/about" class="underline-link underline-link-white w-inline-block">
                                 <div>Our Firm</div>
                                 <div class="underline-container">
                                     <div class="underline-track underline-track-white"></div>
@@ -83,7 +83,7 @@
                             </a>
                         </li>
                         <li class="menu-column-list-item">
-                            <a data-w-id="7d6ef14b-8d21-8dc1-644d-37a23ef6fb04" href="/careers" class="underline-link underline-link-white w-inline-block">
+                            <a data-w-id="7d6ef14b-8d21-8dc1-644d-37a23ef6fb04" href="<?php echo home_url();?>/team" class="underline-link underline-link-white w-inline-block">
                                 <div>Our Team</div>
                                 <div class="underline-container">
                                     <div class="underline-track underline-track-white"></div>
@@ -101,7 +101,6 @@
             <div class="row text-small info-bar-row">
                 <div class="column footer-details-column">
                     <div>© Copyright 2019 | Ronald L. Book, P.A.</div>
-                    <div> Website design by <a href="https://brickandmonitor.com" target="_blank">Brick & Monitor</a>.</div>
                 </div>
                 <div class="column">
                     <ul class="social-links-list w-list-unstyled">

@@ -80,8 +80,8 @@ get_template_part('template-parts/hero', '');
 </div><!--/.section-->
 
 
-<!-- NUMBERS-VERTICAL SECTION -->
-<div class="section section-pad-sm section-center-mobile bg-secondary faded">
+<!-- NUMBERS-HORIZONTAL SECTION -->
+<div class="section section-pad-sm section-pad-top-75 section-center-mobile bg-secondary faded">
   <div data-w-id="77549b59-a675-6031-e461-e93208aba3cd" class="container about-numbers">
       <div class="numbers__wrapper numbers__wrapper-horizontal">
         <div class="numbers__col numbers__col-stats">

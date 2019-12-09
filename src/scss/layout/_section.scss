@@ -13,6 +13,7 @@
   }
 }
 
+
 .section-center-mobile {
   @media (max-width: $tablet) {
     margin: auto;
@@ -31,6 +32,10 @@
 .section-pad-sm {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.section-pad-top-75 {
+  padding-top: 75px;
 }
 
 .section.style-guide-section {

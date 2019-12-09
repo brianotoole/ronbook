@@ -23,7 +23,7 @@ get_template_part('template-parts/hero', '');
 
 
 <!-- AREAS OF PRACTICE -->
-<div class="section contained-section bg-secondary faded">
+<div class="section section-center-mobile contained-section bg-secondary faded">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
       <h2 class="heading-main u-color-black">Influence for Lasting Change</h2>
@@ -45,8 +45,8 @@ get_template_part('template-parts/hero', '');
           <div class="service__title h4">Business Development</div>
         </div><!--/.service-->
       </div><!--/.services-->
-      <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="service__link underline-link w-inline-block">
-                <div>See More News</div>
+      <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="<?php echo home_url();?>/practice-areas" class="service__link underline-link w-inline-block">
+                <div>Learn More</div>
                 <div class="underline-container">
                     <div class="underline-track"></div>
                     <div class="underline-progress"></div>
@@ -59,7 +59,7 @@ get_template_part('template-parts/hero', '');
 
 
 <!-- BY THE NUMBERS -->
-<div class="section contained-section bg-primary">
+<div class="section section-center-mobile contained-section bg-primary">
     <div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="container">
       <h5 class="heading-sub u-color-white">Our Experience</h5>
       <h2 class="heading-main u-color-white">By the Numbers</h2>
@@ -132,7 +132,7 @@ get_template_part('template-parts/hero', '');
 
 
 <!-- CASE STUDY -->
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="feat-case-study bg-primary">
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section-center-mobile feat-case-study bg-primary">
   <div class="feat-case-study__col feat-case-study__col--image">  
   </div><!--/.feat-case-study__col-->
   <div class="feat-case-study__col">  
@@ -140,7 +140,7 @@ get_template_part('template-parts/hero', '');
       <div class="container container-narrow">
         <h6 class="feat-case-study__ribbon">Featured Case Study</h6>
         <h2 class="feat-case-study__title">Florida High School Athletic Association</h2>
-        <p class="feat-case-study__description">loremfjkdsj fklasdjfkadsjflkasdj fklsadjklgsdjagkjasgklsdajgklasdjgk</p>
+        <p class="feat-case-study__description">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
         <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="#" class="feat-case-study__link underline-link w-inline-block">
           <div>View Project</div>
             <div class="underline-container">
@@ -155,7 +155,7 @@ get_template_part('template-parts/hero', '');
 
 
 
-<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section news">
+<div data-w-id="562ba68e-0ae8-5582-dbff-17f74b7d21e2" class="section section-center-mobile news">
     <div class="container">
         <h2 class="section-title">In the News</h2>
         <div class="heading-underline"></div>
@@ -175,7 +175,7 @@ get_template_part('template-parts/hero', '');
           </div><!--/.news__item-->
         </div><!--/.news__list-->
         <div class="news__link-wrapper">
-            <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="/blog" class="underline-link w-inline-block">
+            <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="<?php echo home_url();?>/news" class="underline-link w-inline-block">
                 <div>See More News</div>
                 <div class="underline-container">
                     <div class="underline-track"></div>
@@ -191,7 +191,7 @@ get_template_part('template-parts/hero', '');
 <div class="section cta bg-primary overflow-hidden">
   <div class="container">
     <h2 class="cta">Let's Work Together</h3>
-    <a href="/contact" class="button button-secondary">Get In Touch</a>
+    <a href="<?php echo home_url();?>/contact" class="button button-secondary">Get In Touch</a>
   </div><!--/.container-->
   <div data-w-id="e243cfb7-fd9e-8a1d-fc6f-e14c8cd05fe7" class="decoration ring cta-ring"></div>
 </div><!--/.section-->

@@ -53,7 +53,7 @@ h1, .h1 {
   font-size: rem(34);
   line-height: 1.25;
   @media (min-width: $tablet) {
-    font-size: rem(52);
+    font-size: rem(50);
   }
 }
 
@@ -142,6 +142,9 @@ blockquote {
   margin-bottom: 0;
   padding: 90px 90px 60px;
   border-left: 5px none $color__border;
+  @media (max-width: $tablet) {
+    padding: 30px 15px!important;
+  }
 }
 
 label {

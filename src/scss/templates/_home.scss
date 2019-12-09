@@ -15,7 +15,10 @@
   align-items: center;
 }
 
-.numbers__wrapper-horizontal {}
+/* By the Numbers About */
+.numbers__wrapper-horizontal {
+  flex-wrap: wrap;
+}
 
 .numbers__col-stats {
   display: block;
@@ -195,6 +198,9 @@
 .news__link-wrapper {
   display: flex;
   justify-content: flex-end;
+  @media (max-width: $tablet) {
+    justify-content: center;
+  }
 }
 
 
