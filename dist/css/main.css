@@ -3738,76 +3738,6 @@ textarea.w-select {
 /*********************************************************
   Input
 *********************************************************/
-.form-input {
-  height: auto;
-  margin-bottom: 15px;
-  padding: 15px 10px 15px 15px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgba(52, 78, 65, 0.1);
-  -webkit-transition: border-color 200ms ease, background-color 200ms ease;
-  transition: border-color 200ms ease, background-color 200ms ease;
-  color: #344e41;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.02em; }
-
-.form-input:focus {
-  border-color: rgba(255, 255, 255, 0);
-  background-color: rgba(52, 78, 65, 0.1); }
-
-.form-input::-webkit-input-placeholder {
-  color: rgba(52, 78, 65, 0.5); }
-
-.form-input:-ms-input-placeholder {
-  color: rgba(52, 78, 65, 0.5); }
-
-.form-input::-ms-input-placeholder {
-  color: rgba(52, 78, 65, 0.5); }
-
-.form-input::placeholder {
-  color: rgba(52, 78, 65, 0.5); }
-
-.form-input.form-textarea {
-  min-height: 180px; }
-
-.form-input.form-input-large {
-  padding-top: 22px;
-  padding-bottom: 22px; }
-
-.form-input.contact-form-input {
-  margin-bottom: 30px; }
-
-.form-input.form-input-white {
-  border-color: rgba(255, 255, 255, 0.1);
-  background-color: transparent;
-  color: #fff; }
-
-.form-input.form-input-white::-webkit-input-placeholder {
-  color: #fff; }
-
-.form-input.form-input-white:-ms-input-placeholder {
-  color: #fff; }
-
-.form-input.form-input-white::-ms-input-placeholder {
-  color: #fff; }
-
-.form-input.form-input-white::placeholder {
-  color: #fff; }
-
-.form-input.form-input-white.search-form-input {
-  min-width: 400px;
-  margin-right: 15px;
-  margin-bottom: 0px;
-  padding-left: 0px;
-  border-top-style: none;
-  border-right-style: none;
-  border-left-style: none; }
-
-.form-input.search-form-input {
-  margin-right: 15px;
-  margin-bottom: 0px; }
-
 fieldset {
   margin: 0;
   padding: 0;
@@ -3825,13 +3755,17 @@ input[type='search'],
 input[type='tel'],
 input[type='text'],
 input[type='url'],
-textarea {
+textarea,
+select {
   display: inline-block;
   width: 100%;
-  margin-bottom: 1.125rem;
-  padding: 1rem 1.125rem;
+  height: 52px !important;
+  margin-bottom: 0.9375rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.9375rem;
+  line-height: 1;
   color: #222;
   border: 1px solid #EEEEEE;
   border-radius: 0;
@@ -3852,7 +3786,9 @@ textarea {
   input[type='url']:focus,
   input[type='url']:active,
   textarea:focus,
-  textarea:active {
+  textarea:active,
+  select:focus,
+  select:active {
     border-color: #A29062; }
 
 textarea {
@@ -3894,6 +3830,43 @@ textarea {
   /* Microsoft Edge */
   color: #222;
   font-size: 1rem; }
+
+.contact-form {
+  width: 100%; }
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100% !important;
+    background: #f3f3f3;
+    border-radius: 0; }
+  .contact-form select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative; }
+    .contact-form select:before {
+      content: 'f0d7';
+      position: absolute;
+      left: 5px; }
+  .contact-form .btn,
+  .contact-form button {
+    width: auto !important;
+    background: #014F39;
+    border-radius: 32px;
+    width: 100%;
+    padding: 10px 30px;
+    border: none; }
+
+.contact-form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contact-form__row div:not(:last-child) {
+  padding-right: 15px; }
+
+.contact-form__col {
+  width: 100%; }
 
 /*********************************************************
   Button

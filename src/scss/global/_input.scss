@@ -1,174 +1,139 @@
 /*********************************************************
   Input
 *********************************************************/
-.form-input {
-  height: auto;
-  margin-bottom: 15px;
-  padding: 15px 10px 15px 15px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgba(52, 78, 65, 0.1);
-  -webkit-transition: border-color 200ms ease, background-color 200ms ease;
-  transition: border-color 200ms ease, background-color 200ms ease;
-  color: #344e41;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.02em;
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-.form-input:focus {
-  border-color: hsla(0, 0%, 100%, 0);
-  background-color: rgba(52, 78, 65, 0.1);
+label,
+.form > .form__label {
+  display: block;
+  margin-bottom: 0.2rem;
 }
 
-.form-input::-webkit-input-placeholder {
-  color: rgba(52, 78, 65, 0.5);
-}
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+textarea,
+select {
+  display: inline-block;
+  width: 100%;
+  height: 52px !important;
+  margin-bottom: rem(15);
+  padding-left: rem(10);
+  padding-right: rem(10);
+  font-family: inherit;
+  font-size: rem(15);
+  line-height: 1;
+  color: $color__text;
+  border: 1px solid $color__border;
+  border-radius: 0;
+  outline: none;
+  transition: 0.2s all ease-out;
 
-.form-input:-ms-input-placeholder {
-  color: rgba(52, 78, 65, 0.5);
-}
-
-.form-input::-ms-input-placeholder {
-  color: rgba(52, 78, 65, 0.5);
-}
-
-.form-input::placeholder {
-  color: rgba(52, 78, 65, 0.5);
-}
-
-.form-input.form-textarea {
-  min-height: 180px;
-}
-
-.form-input.form-input-large {
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-.form-input.contact-form-input {
-  margin-bottom: 30px;
-}
-
-.form-input.form-input-white {
-  border-color: hsla(0, 0%, 100%, 0.1);
-  background-color: transparent;
-  color: #fff;
-}
-
-.form-input.form-input-white::-webkit-input-placeholder {
-  color: #fff;
-}
-
-.form-input.form-input-white:-ms-input-placeholder {
-  color: #fff;
-}
-
-.form-input.form-input-white::-ms-input-placeholder {
-  color: #fff;
-}
-
-.form-input.form-input-white::placeholder {
-  color: #fff;
-}
-
-.form-input.form-input-white.search-form-input {
-  min-width: 400px;
-  margin-right: 15px;
-  margin-bottom: 0px;
-  padding-left: 0px;
-  border-top-style: none;
-  border-right-style: none;
-  border-left-style: none;
-}
-
-.form-input.search-form-input {
-  margin-right: 15px;
-  margin-bottom: 0px;
-}
-
-  fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
+  &:focus,
+  &:active {
+    border-color: $color__secondary;
   }
-  
-  label,
-  .form > .form__label {
-    display: block;
-    margin-bottom: 0.2rem;
-  }
-  
-  input[type='email'],
-  input[type='number'],
-  input[type='password'],
-  input[type='search'],
-  input[type='tel'],
-  input[type='text'],
-  input[type='url'],
-  textarea, {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: rem(18);
-    padding: rem(16) rem(18);
-    font-family: inherit;
-    font-size: 1rem;
-    color: $color__text;
-    border: 1px solid $color__border;
-    border-radius: 0;
-    outline: none;
-    transition: 0.2s all ease-out;
-  
-    &:focus,
-    &:active {
-      border-color: $color__secondary;
+}
+
+textarea {
+  max-width: 100%;
+}
+
+.form {
+  &__btn-container {
+    @media (min-width: $tablet) {
+      float: right;
     }
   }
-  
-  textarea {
-    max-width: 100%;
-  }
-  
-  .form {
-    &__btn-container {
-      @media (min-width: $tablet) {
-        float: right;
-      }
+}
+
+.form {
+  &__input {
+    &--success {
+      border-color: $color__success!important;
+    }
+
+    &--error {
+      border-color: $color__error!important;
     }
   }
-  
-  .form {
-    &__input {
-      &--success {
-        border-color: $color__success!important;
-      }
-  
-      &--error {
-        border-color: $color__error!important;
-      }
-    }
+}
+
+// placeholder text
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $color__text;
+  font-size: rem(16);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: $color__text;
+   font-size: rem(16);
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: $color__text;
+   font-size: rem(16);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: $color__text;
+   font-size: rem(16);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: $color__text;
+   font-size: rem(16);
+}
+
+
+// specific
+.contact-form {
+width: 100%;
+input,
+select,
+textarea {
+  width: 100% !important;
+  background: #f3f3f3;
+  border-radius: 0;
+}
+
+select {
+  appearance: none;
+  position: relative;
+  //margin-bottom: rem(20);
+  &:before {
+    content: 'f0d7';
+    position: absolute;
+    left: 5px;
   }
-  
-  // placeholder text
-  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: $color__text;
-    font-size: rem(16);
-  }
-  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-     color: $color__text;
-     font-size: rem(16);
-     opacity: 1;
-  }
-  ::-moz-placeholder { /* Mozilla Firefox 19+ */
-     color: $color__text;
-     font-size: rem(16);
-     opacity:  1;
-  }
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-     color: $color__text;
-     font-size: rem(16);
-  }
-  ::-ms-input-placeholder { /* Microsoft Edge */
-     color: $color__text;
-     font-size: rem(16);
-  }
+}
+.btn,
+button {
+  width: auto !important;
+  background: $color__primary;
+  border-radius: 32px; 
+  width: 100%;
+  padding: 10px 30px;
+  border: none;
+}
+}
+
+.contact-form__row {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+}
+
+.contact-form__row div:not(:last-child) {
+padding-right: 15px;
+}
+
+.contact-form__col {
+width: 100%;
+}
