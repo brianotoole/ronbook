@@ -4255,16 +4255,22 @@ textarea {
 /*********************************************************
   Header & Navs
 *********************************************************/
-.navigation-bar {
-  position: relative;
+.navigation-bar.header-transparent {
+  position: fixed;
+  width: 100vw;
   z-index: 3;
   padding-top: 15px;
-  padding-bottom: 0px;
-  background: #014F39;
+  padding-bottom: 0;
+  background: #014F39 !important;
   -webkit-transition: background 0.3s linear;
   transition: background 0.3s linear; }
-  .navigation-bar:hover {
-    background: #012c20; }
+  .navigation-bar.header-transparent:hover {
+    background: #012c20 !important; }
+
+.navigation-bar.header-not-transparent {
+  background: #014F39 !important; }
+  .navigation-bar.header-not-transparent:hover {
+    background: #012c20 !important; }
 
 .navigation-bar.navigation-bar-overlay {
   position: fixed;

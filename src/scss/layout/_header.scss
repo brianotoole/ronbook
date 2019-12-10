@@ -2,15 +2,23 @@
   Header & Navs
 *********************************************************/
 
-.navigation-bar {
-  position: relative;
+.navigation-bar.header-transparent {
+  position: fixed;
+  width: 100vw;
   z-index: 3;
   padding-top: 15px;
-  padding-bottom: 0px;
-  background: $color__primary;
+  padding-bottom: 0;
+  background: $color__primary!important;
   transition: background 0.3s linear;
   &:hover {
-    background: $color__primary--dark;
+    background: $color__primary--dark!important;
+  }
+}
+
+.navigation-bar.header-not-transparent {
+  background: $color__primary!important;
+  &:hover {
+    background: $color__primary--dark!important;
   }
 }
 
@@ -258,8 +266,8 @@
   transform: translateY(0) !important;
 }
 .header-transparent {
-  background-color: rgba($color__primary, 0.05) !important;
+  background-color: rgba($color__primary, 0.05)!important;
 }
 .header-not-transparent {
-  background-color: rgba($color__primary, 0.99) !important;
+  background-color: rgba($color__primary, 0.99)!important;
 }
