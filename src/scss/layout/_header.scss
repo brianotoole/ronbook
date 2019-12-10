@@ -241,3 +241,25 @@
 .hamburger.is-active .line:nth-child(3){
   transform: translateY(-13px) rotate(-45deg);
 }
+
+/* Headroom */
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
+.header-show {
+  transform: translateY(0) !important;
+}
+.header-transparent {
+  background-color: rgba($color__primary, 0.05) !important;
+}
+.header-not-transparent {
+  background-color: rgba($color__primary, 0.99) !important;
+}
