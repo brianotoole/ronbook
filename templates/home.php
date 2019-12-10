@@ -46,7 +46,7 @@ get_template_part('template-parts/hero', '');
         </div><!--/.service-->
       </div><!--/.services-->
       <a data-w-id="6b01e7aa-5773-fde8-2b75-70067b33ff2d" href="<?php echo home_url();?>/practice-areas" class="service__link underline-link w-inline-block">
-                <div>Learn More</div>
+                <div class="u-pad-xl-sm">Learn More</div>
                 <div class="underline-container">
                     <div class="underline-track"></div>
                     <div class="underline-progress"></div>

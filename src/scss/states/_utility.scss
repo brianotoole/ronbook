@@ -4,8 +4,14 @@
 *********************************************************/
 
 /**
-  * Headings
+  * Paddings
   */
+
+.u-pad-xl-sm {
+  @media (max-width: $tablet) {
+    padding-top: 75px;
+  }
+}
 
 
 /**

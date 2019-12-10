@@ -21,7 +21,7 @@ get_template_part('template-parts/hero', '');
       <div class="quote-with-image">
           <img src="https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1.jpg" srcset="https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5c53cbcc2a3fef233f40bd47/5c58e86c70ae492dca8b2247_about-1.jpg 974w" sizes="(max-width: 767px) 100vw, 487px" alt="" class="quote-author-image">
           <div class="quote-container">
-            <blockquote>"This is a cool quote from Ron about how great the company is."</blockquote>
+            <blockquote>"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries."</blockquote>
             <div class="quote-lower">
                 <div class="quote-author-text-container">
                   <div class="quote-author-line"></div>
@@ -76,27 +76,44 @@ get_template_part('template-parts/hero', '');
 
       <h5 class="heading-sub u-color-black">Areas of Practice</h5>
       <h2 class="heading-main u-color-black">How We Help</h2>
-      <div class="services services-accordion">
-        <div class="service">
+      <div class="services services-accordion accordion">
+
+        <a class="service accordion__item">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-lobbying.svg">
           <div class="service__title h4">Lobbying</div>
           <div class="service__plus"></div>
-        </div><!--/.service-->
-        <div class="service">
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, unde. Voluptates delectus dolorem voluptatem incidunt modi quis laborum, quos animi eius neque officia commodi, sapiente tenetur ullam molestias aspernatur quod.</p>
+          </div>
+        </a><!--/.service-->
+
+        <a class="service accordion__item">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-government.svg">
           <div class="service__title h4">Government Affairs</div>
           <div class="service__plus"></div>
-        </div><!--/.service-->
-        <div class="service">
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, unde. Voluptates delectus dolorem voluptatem incidunt modi quis laborum, quos animi eius neque officia commodi, sapiente tenetur ullam molestias aspernatur quod.</p>
+          </div>
+        </a><!--/.service-->
+
+        <a class="service accordion__item">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-procurement.svg">
           <div class="service__title h4">Procurement</div>
           <div class="service__plus"></div>
-        </div><!--/.service-->
-        <div class="service">
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, unde. Voluptates delectus dolorem voluptatem incidunt modi quis laborum, quos animi eius neque officia commodi, sapiente tenetur ullam molestias aspernatur quod.</p>
+          </div>
+        </a><!--/.service-->
+
+        <a class="service accordion__item">
           <img class="service__icon" src="<?php echo get_template_directory_uri(); ?>/dist/img/icon-business.svg">
           <div class="service__title h4">Business Development</div>
           <div class="service__plus"></div>
-        </div><!--/.service-->
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, unde. Voluptates delectus dolorem voluptatem incidunt modi quis laborum, quos animi eius neque officia commodi, sapiente tenetur ullam molestias aspernatur quod.</p>
+          </div>
+        </a><!--/.service-->
+
       </div><!--/.services-->
 
     </div><!--/.container-->

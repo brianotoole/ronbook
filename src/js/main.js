@@ -8,7 +8,7 @@ require('./build.js'); //via webflow export
 
 // COMPONENTS
 require('./components/nav.js');
-//require('./components/social-sharing.js')
+require('./components/accordion.js');
 
 //import Modal from './components/modal';
 //var modal = new Modal();

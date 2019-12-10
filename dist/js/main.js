@@ -120,6 +120,18 @@ eval("var _typeof3=typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symb
 
 /***/ }),
 
+/***/ "./src/js/components/accordion.js":
+/*!****************************************!*\
+  !*** ./src/js/components/accordion.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n// Accordion\n\n(function ($) {\n    \"use strict\";\n\n    //$('.accordion > .accordion__item:eq(0)').addClass('active').next().slideDown();\n\n    $('.accordion__item').click(function (e) {\n        //var dropDown = $(this).closest('.accordion__item').find('.accordion__content');\n\n        //$(this).closest('.accordion').find('.accordion__item').not(dropdown).slideUp();\n        $(this).closest('.accordion').find('.accordion__item');\n\n        if ($(this).hasClass('active')) {\n            $(this).removeClass('active');\n            $(this).find('.accordion__content').removeClass('active');\n        } else {\n            $(this).addClass('active');\n            $(this).closest('.accordion').find('.accordion__item.active > .accordion__content').addClass('active');\n        }\n\n        //dropDown.stop(false, true).slideToggle();\n\n        e.preventDefault();\n    });\n})(jQuery);\n\n//# sourceURL=webpack:///./src/js/components/accordion.js?");
+
+/***/ }),
+
 /***/ "./src/js/components/nav.js":
 /*!**********************************!*\
   !*** ./src/js/components/nav.js ***!
@@ -140,7 +152,7 @@ eval("\n\nvar _headroom = __webpack_require__(/*! headroom.js/dist/headroom.js *
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n/*********************************************************\n  Main JS Entry Point\n*********************************************************/\n\n// GLOBAL\n__webpack_require__(/*! ./build.js */ \"./src/js/build.js\"); //via webflow export\n//require('./global/events.js');\n\n// COMPONENTS\n__webpack_require__(/*! ./components/nav.js */ \"./src/js/components/nav.js\");\n//require('./components/social-sharing.js')\n\n//import Modal from './components/modal';\n//var modal = new Modal();\n\n// TEMPLATES\n//require('./templates/about.js');\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("\n\n/*********************************************************\n  Main JS Entry Point\n*********************************************************/\n\n// GLOBAL\n__webpack_require__(/*! ./build.js */ \"./src/js/build.js\"); //via webflow export\n//require('./global/events.js');\n\n// COMPONENTS\n__webpack_require__(/*! ./components/nav.js */ \"./src/js/components/nav.js\");\n__webpack_require__(/*! ./components/accordion.js */ \"./src/js/components/accordion.js\");\n\n//import Modal from './components/modal';\n//var modal = new Modal();\n\n// TEMPLATES\n//require('./templates/about.js');\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 

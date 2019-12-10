@@ -13,9 +13,9 @@
 
 .service {
   background: $color__white;
-  flex-basis: 100%;
+  flex-basis: 50%;
   flex-grow: 1;
-  margin: 15px 0;
+  margin: 0 auto;
   padding: 30px 15px 15px;
   text-align: center;
   box-shadow: 0 0 20px rgba($color__black, 0.1);
@@ -59,6 +59,7 @@
 
 .services-accordion .service {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 45px;
   padding: 30px;
@@ -81,6 +82,7 @@
   background: $color__secondary;
   position: absolute;
   right: 65px;
+  transition: transform 0.25s linear;
   @media (max-width: $tablet) {
     right: 30px;
     height: 30px;
@@ -93,6 +95,7 @@
     background: $color__secondary;
     transform: rotate(90deg);
     margin-left: -1px;
+    transition: transform 0.25s linear;
     @media (max-width: $tablet) {
     height: 30px;
   }
